@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "91ef15853d4fabc172815c7a7cab9a195b0fd977",
-    "parent": "83b122536fb933d448429eebcb4f62af88e34c53",
+    "hash": "5f78d5aa43feb339cbe43d1fca94d99a34747ebd",
+    "parent": "01bc4bd6f005cab634b5b1c0474ecabd7419227f",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646662749,
+      "timestamp": 1646668882,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1646664736,
-      "timezone": "+0100"
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646670394,
+      "timezone": "+0000"
     },
-    "message": "Remove unused styles",
+    "message": "Reduce decimals of author distribution",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "bac2fe0ed3b4b939f6bc021864e8021ad2cd3849",
+      "hash": "7e31f1a0865c8e0ecec602a11f588ee202465eda",
       "children": [
         {
           "type": "tree",
@@ -44,7 +44,6 @@
                   "hash": "3d2994e3f9f461625833968e43d5f1e9d0a52bb7",
                   "path": "git-visual/.github/workflows/build-and-deploy.yml",
                   "name": "build-and-deploy.yml",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 10,
                     "Jonas Glerup Røssum": 25
@@ -58,7 +57,6 @@
                   "hash": "5d8014b5bfa120b2ddc435a9da7d1562a5c7026b",
                   "path": "git-visual/.github/workflows/test-parser.yml",
                   "name": "test-parser.yml",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 32,
                     "Jonas Glerup Røssum": 32
@@ -76,7 +74,6 @@
           "hash": "007bdd403253298eb62f2d17d57ffece44a5f8e6",
           "path": "git-visual/.gitignore",
           "name": ".gitignore",
-          "content": "",
           "authors": {
             "Thomas Hoffmann Kilbak": 4,
             "Jonas Glerup Røssum": 3,
@@ -97,7 +94,6 @@
               "hash": "26b931f385fe2a148738e9f9cb668103165b29b4",
               "path": "git-visual/.husky/pre-commit",
               "name": "pre-commit",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 4,
                 "Jonas Glerup Røssum": 4
@@ -113,7 +109,6 @@
           "hash": "cce9d3c0801773cf33a36f6e57afe78a06eebb89",
           "path": "git-visual/.prettierrc",
           "name": ".prettierrc",
-          "content": "",
           "authors": {
             "Kristoffer Højelse": 3,
             "joglr": 3
@@ -127,7 +122,6 @@
           "hash": "483a9c42c3c288cca80f49be1a584f507977fc4c",
           "path": "git-visual/.truckignore",
           "name": ".truckignore",
-          "content": "",
           "authors": {
             "Thomas Hoffmann Kilbak": 1
           },
@@ -146,7 +140,6 @@
               "hash": "f382f78907542d555d280bd1a3c9dc1557ee29f2",
               "path": "git-visual/.vscode/extensions.json",
               "name": "extensions.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 9,
                 "Thomas Hoffmann Kilbak": 9
@@ -160,7 +153,6 @@
               "hash": "fd23abad1b76b7c985cad2e21d0ba0d7fd6b7e45",
               "path": "git-visual/.vscode/launch.json",
               "name": "launch.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 5,
                 "joglr": 25,
@@ -176,7 +168,6 @@
               "hash": "d974ff54b2c5794feba240007965fd15d3522d12",
               "path": "git-visual/.vscode/settings.json",
               "name": "settings.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 6,
                 "Thomas Hoffmann Kilbak": 6
@@ -192,7 +183,6 @@
           "hash": "618465b14ebc1154476bd384edb71ee21abc5a10",
           "path": "git-visual/LICENSE",
           "name": "LICENSE",
-          "content": "",
           "authors": {
             "Kristoffer Højelse": 21
           },
@@ -205,7 +195,6 @@
           "hash": "649576dc66fb964d88401cb78a279ee654593e8f",
           "path": "git-visual/README.md",
           "name": "README.md",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 56,
             "Kristoffer Højelse": 2
@@ -218,14 +207,13 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "7c6380633c4727603d8c1dfc7cbf42d8f1af3a14",
+          "hash": "44e1ec4a74025669bd149084a6b589f62bbf0968",
           "children": [
             {
               "type": "blob",
               "hash": "9611753f8f857142204ac7c1b8941d65b00cd46f",
               "path": "git-visual/app/.gitignore",
               "name": ".gitignore",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 25,
                 "Thomas Hoffmann Kilbak": 25
@@ -239,7 +227,6 @@
               "hash": "b87cb00449efa5b6131f56b7e45cc63eddf37373",
               "path": "git-visual/app/README.md",
               "name": "README.md",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 46,
                 "Jonas Glerup Røssum": 46
@@ -253,7 +240,6 @@
               "hash": "45a9a57f73b9ce74d86906408721dcb2453b0b29",
               "path": "git-visual/app/package.json",
               "name": "package.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 78,
                 "emiljapelt": 5,
@@ -274,7 +260,6 @@
                   "hash": "a11777cc471a4344702741ab1c8a588998b1311a",
                   "path": "git-visual/app/public/favicon.ico",
                   "name": "favicon.ico",
-                  "content": "",
                   "authors": {}
                 },
                 {
@@ -282,7 +267,6 @@
                   "hash": "ed29a9353a7e2b433775a4242337baa5c44df8ea",
                   "path": "git-visual/app/public/index.html",
                   "name": "index.html",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 46,
                     "emiljapelt": 1,
@@ -297,7 +281,6 @@
                   "hash": "fc44b0a3796c0e0a64c3d858ca038bd4570465d9",
                   "path": "git-visual/app/public/logo192.png",
                   "name": "logo192.png",
-                  "content": "",
                   "authors": {}
                 },
                 {
@@ -305,7 +288,6 @@
                   "hash": "a4e47a6545bc15971f8f63fba70e4013df88a664",
                   "path": "git-visual/app/public/logo512.png",
                   "name": "logo512.png",
-                  "content": "",
                   "authors": {}
                 },
                 {
@@ -313,7 +295,6 @@
                   "hash": "080d6c77ac21bb2ef88a6992b2b73ad93daaca92",
                   "path": "git-visual/app/public/manifest.json",
                   "name": "manifest.json",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 25,
                     "Jonas Glerup Røssum": 25
@@ -327,7 +308,6 @@
                   "hash": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
                   "path": "git-visual/app/public/robots.txt",
                   "name": "robots.txt",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 3,
                     "Jonas Glerup Røssum": 3
@@ -342,14 +322,13 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "6ded80b00ff6c89429a470d61c7157a88cf4a553",
+              "hash": "803cdcb2ef5bc4be92f6ebdc3c7706ed9d61a967",
               "children": [
                 {
                   "type": "blob",
                   "hash": "4867abeb9b7c6d0edeef3de3b831f748ab27ebe7",
                   "path": "git-visual/app/src/App.css",
                   "name": "App.css",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 81,
                     "emiljapelt": 22
@@ -363,7 +342,6 @@
                   "hash": "825688cb8cd0c7f004378cfad4a6e42b87353829",
                   "path": "git-visual/app/src/App.tsx",
                   "name": "App.tsx",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 179,
                     "tjomson": 29,
@@ -378,7 +356,6 @@
                   "hash": "04926ab4ae5553aa6beda84e3920c8d792702aa1",
                   "path": "git-visual/app/src/MetricContext.ts",
                   "name": "MetricContext.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 14
                   },
@@ -391,7 +368,6 @@
                   "hash": "9faa84b73787e46898e8580ad441972ac82dbed4",
                   "path": "git-visual/app/src/OptionsContext.ts",
                   "name": "OptionsContext.ts",
-                  "content": "",
                   "authors": {}
                 },
                 {
@@ -399,7 +375,6 @@
                   "hash": "533b0ada90e7abf558cb5c55707cf52331afe319",
                   "path": "git-visual/app/src/SearchContext.ts",
                   "name": "SearchContext.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 16,
                     "tjomson": 16
@@ -412,14 +387,13 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "ace89af12dd5f7ceaa9ebd43283aac66cc65662b",
+                  "hash": "15f8521c2f069ef663eb9ee1d484ed82789b199b",
                   "children": [
                     {
                       "type": "blob",
                       "hash": "ccc0561123e20dd3e42ca5b9f9e72d53452a5085",
                       "path": "git-visual/app/src/components/Chart.css",
                       "name": "Chart.css",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 23,
                         "tjomson": 23
@@ -433,7 +407,6 @@
                       "hash": "68925e462ef0436124b6d6dfe0837e82a3003dd3",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 512,
                         "tjomson": 47,
@@ -448,7 +421,6 @@
                       "hash": "2447dabdb1bc363813dd200d07790f1a9e9bc6b2",
                       "path": "git-visual/app/src/components/DataContext.ts",
                       "name": "DataContext.ts",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 12
                       },
@@ -458,25 +430,24 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "dd836113a28ab1cdf81e35259bb70922977e5ef4",
+                      "hash": "ba6f475a6e75843dc77885e8e9260930e0811bd8",
                       "path": "git-visual/app/src/components/Details.tsx",
                       "name": "Details.tsx",
-                      "content": "",
                       "authors": {
-                        "Jonas Glerup Røssum": 78,
+                        "Jonas Glerup Røssum": 162,
+                        "Thomas Hoffmann Kilbak": 26,
                         "tjomson": 42,
                         "Kristoffer Højelse": 6
                       },
-                      "noLines": 50,
-                      "noCommits": 9,
-                      "lastChangeEpoch": 1646657235
+                      "noLines": 112,
+                      "noCommits": 14,
+                      "lastChangeEpoch": 1646668882
                     },
                     {
                       "type": "blob",
                       "hash": "f85534e4b4ca90bc71fcfe821af14099603aba6b",
                       "path": "git-visual/app/src/components/EnumSelect.test.tsx",
                       "name": "EnumSelect.test.tsx",
-                      "content": "",
                       "authors": {}
                     },
                     {
@@ -484,7 +455,6 @@
                       "hash": "72444d8297feef63dfb27d20d37caf1c5db6ba47",
                       "path": "git-visual/app/src/components/EnumSelect.tsx",
                       "name": "EnumSelect.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 51
                       },
@@ -497,7 +467,6 @@
                       "hash": "8e0897c110ca7147f9d4ea039eb3fb827bdf203f",
                       "path": "git-visual/app/src/components/GlobalInfo.tsx",
                       "name": "GlobalInfo.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 21
                       },
@@ -510,7 +479,6 @@
                       "hash": "d6cfa445461295253855b1414d1b6d7937217ab7",
                       "path": "git-visual/app/src/components/Legend.tsx",
                       "name": "Legend.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 247,
                         "emiljapelt": 198,
@@ -525,7 +493,6 @@
                       "hash": "8889ec08d01eceed7809e89f329f16a748c66a47",
                       "path": "git-visual/app/src/components/LegendFragment.tsx",
                       "name": "LegendFragment.tsx",
-                      "content": "",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 12,
                         "emiljapelt": 47,
@@ -540,7 +507,6 @@
                       "hash": "a8de41a2aa9307bd51151188f26c0121ee79d3f6",
                       "path": "git-visual/app/src/components/LegendOther.tsx",
                       "name": "LegendOther.tsx",
-                      "content": "",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 5,
                         "emiljapelt": 45,
@@ -555,7 +521,6 @@
                       "hash": "bc0018633bc919a4c6a3dcd27a7ac34ad1e256ab",
                       "path": "git-visual/app/src/components/LegendToggle.tsx",
                       "name": "LegendToggle.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 16,
                         "emiljapelt": 16
@@ -569,7 +534,6 @@
                       "hash": "b174f9ad2cba483626d70dc5079c633ec6a99b7b",
                       "path": "git-visual/app/src/components/Main.tsx",
                       "name": "Main.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 19
                       },
@@ -582,7 +546,6 @@
                       "hash": "abf0f9173ed2f8496b57bc7601bcb1e8d1d8b8a6",
                       "path": "git-visual/app/src/components/Options.tsx",
                       "name": "Options.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 188
                       },
@@ -595,7 +558,6 @@
                       "hash": "f2dcc4058758ff788d0a051ab23b8aff1547fa30",
                       "path": "git-visual/app/src/components/Providers.tsx",
                       "name": "Providers.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 39,
                         "tjomson": 39
@@ -609,7 +571,6 @@
                       "hash": "01af36242b072ce091fee9a8acbd048a13be567f",
                       "path": "git-visual/app/src/components/SearchBar.tsx",
                       "name": "SearchBar.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 36,
                         "tjomson": 36
@@ -623,7 +584,6 @@
                       "hash": "c1c8312a573164320ab0f64571f27d0c0177901c",
                       "path": "git-visual/app/src/components/SidePanel.tsx",
                       "name": "SidePanel.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 39,
                         "tjomson": 9,
@@ -639,7 +599,6 @@
                       "hash": "13a2c1d240fee8c0c7e1d3a19ced160a116ea407",
                       "path": "git-visual/app/src/components/Spacer.tsx",
                       "name": "Spacer.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 69
                       },
@@ -649,23 +608,22 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "9f73684e766965dce6f8e0118daed2a587b54f3b",
+                      "hash": "33b4eb05e7ed264a643efc851e8180bf097e2b00",
                       "path": "git-visual/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
-                      "content": "",
                       "authors": {
+                        "Thomas Hoffmann Kilbak": 71,
                         "Jonas Glerup Røssum": 133
                       },
-                      "noLines": 64,
-                      "noCommits": 6,
-                      "lastChangeEpoch": 1646661986
+                      "noLines": 105,
+                      "noCommits": 12,
+                      "lastChangeEpoch": 1646665625
                     },
                     {
                       "type": "blob",
-                      "hash": "9952d3b0ed08475d404a67dd67948caa505795df",
+                      "hash": "e4b9e88b56a1bbc36371161469657861ebf5ecf1",
                       "path": "git-visual/app/src/components/util.tsx",
                       "name": "util.tsx",
-                      "content": "",
                       "authors": {
                         "Jonas Glerup Røssum": 149,
                         "emiljapelt": 77,
@@ -673,8 +631,8 @@
                         "tjomson": 9
                       },
                       "noLines": 133,
-                      "noCommits": 15,
-                      "lastChangeEpoch": 1646661559
+                      "noCommits": 16,
+                      "lastChangeEpoch": 1646668066
                     }
                   ]
                 },
@@ -683,7 +641,6 @@
                   "hash": "1c7c225d219dc278b5ee1a8244c1e05a24b3bc3e",
                   "path": "git-visual/app/src/const.ts",
                   "name": "const.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 14,
                     "Thomas Hoffmann Kilbak": 14
@@ -697,7 +654,6 @@
                   "hash": "d0c286f1898b12fc39831ac23ebab26a6e164019",
                   "path": "git-visual/app/src/hooks.ts",
                   "name": "hooks.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 13
                   },
@@ -707,25 +663,23 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "d7869b968b2381f7a903e2ce9689648eb9c4959a",
+                  "hash": "77bc75212558c43c1065aef22ce723802206e800",
                   "path": "git-visual/app/src/index.css",
                   "name": "index.css",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 47,
                     "tjomson": 6,
                     "Thomas Hoffmann Kilbak": 47
                   },
-                  "noLines": 29,
-                  "noCommits": 5,
-                  "lastChangeEpoch": 1646061471
+                  "noLines": 35,
+                  "noCommits": 6,
+                  "lastChangeEpoch": 1646668066
                 },
                 {
                   "type": "blob",
                   "hash": "be200bb5c2b6fb36fe9ec1c529dbdc9bfb9251c8",
                   "path": "git-visual/app/src/index.tsx",
                   "name": "index.tsx",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 38,
                     "Thomas Hoffmann Kilbak": 38
@@ -736,26 +690,24 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "9c952ad883db2135ab3b0028b9ecd7f2576ab415",
+                  "hash": "766400915716ffe2bb8b166cafbbc1cfb48ccdb0",
                   "path": "git-visual/app/src/metrics.ts",
                   "name": "metrics.ts",
-                  "content": "",
                   "authors": {
-                    "Kristoffer Højelse": 22,
                     "Thomas Hoffmann Kilbak": 18,
+                    "Kristoffer Højelse": 22,
                     "emiljapelt": 411,
                     "Jonas Glerup Røssum": 18
                   },
-                  "noLines": 307,
-                  "noCommits": 13,
-                  "lastChangeEpoch": 1646400341
+                  "noLines": 311,
+                  "noCommits": 16,
+                  "lastChangeEpoch": 1646665774
                 },
                 {
                   "type": "blob",
                   "hash": "6431bc5fc6b2c932dfe5d0418fc667b86c18b9fc",
                   "path": "git-visual/app/src/react-app-env.d.ts",
                   "name": "react-app-env.d.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 1,
                     "Jonas Glerup Røssum": 1
@@ -769,7 +721,6 @@
                   "hash": "8c8400b19f42e07144538101126d65292d0bd9e5",
                   "path": "git-visual/app/src/reportWebVitals.ts",
                   "name": "reportWebVitals.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 15,
                     "Jonas Glerup Røssum": 15
@@ -783,7 +734,6 @@
                   "hash": "6a0fd1230b44bcbdf5dd9506285418d3659a00b2",
                   "path": "git-visual/app/src/setupTests.ts",
                   "name": "setupTests.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 5,
                     "Jonas Glerup Røssum": 5
@@ -794,30 +744,29 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "d2687ce8dd69194aaeae84604e3081b1ac52ea99",
+                  "hash": "8f199540118abcf8540f561ea18ec1e48e5d0fc0",
                   "path": "git-visual/app/src/util.ts",
                   "name": "util.ts",
-                  "content": "",
                   "authors": {
+                    "Thomas Hoffmann Kilbak": 22,
                     "Jonas Glerup Røssum": 39
                   },
-                  "noLines": 25,
-                  "noCommits": 4,
-                  "lastChangeEpoch": 1646222348
+                  "noLines": 43,
+                  "noCommits": 7,
+                  "lastChangeEpoch": 1646666151
                 },
                 {
                   "type": "blob",
-                  "hash": "18d1d14d4019232cf8d18b8bc19e0b97e4d4ac0d",
+                  "hash": "b35cd164be84e9c31cfdb4c36859248071de2165",
                   "path": "git-visual/app/src/vars.css",
                   "name": "vars.css",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 13,
                     "tjomson": 2
                   },
                   "noLines": 16,
-                  "noCommits": 5,
-                  "lastChangeEpoch": 1646222348
+                  "noCommits": 6,
+                  "lastChangeEpoch": 1646668676
                 }
               ]
             },
@@ -826,7 +775,6 @@
               "hash": "a46e159ced9190803abddbfbc431943dda76ce30",
               "path": "git-visual/app/tsconfig.json",
               "name": "tsconfig.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 34,
                 "Thomas Hoffmann Kilbak": 34
@@ -842,7 +790,6 @@
           "hash": "43cab4f83c7746415de4cf939fa32b0929040821",
           "path": "git-visual/clean.sh",
           "name": "clean.sh",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 8
           },
@@ -855,7 +802,6 @@
           "hash": "ededbda0528b438e8d612e5c1a89f711901d54dc",
           "path": "git-visual/dev.sh",
           "name": "dev.sh",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 12
           },
@@ -868,7 +814,6 @@
           "hash": "7f2d6ca512e97b658aba92ad0c3f2103bb9925e1",
           "path": "git-visual/parse.sh",
           "name": "parse.sh",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 21
           },
@@ -880,14 +825,13 @@
           "type": "tree",
           "path": "git-visual/parser",
           "name": "parser",
-          "hash": "38194734b3eea8a6d22de7465936e9c92bf0149d",
+          "hash": "c0c09488e5c1dd93ba9d83e5e6297cedc15be14b",
           "children": [
             {
               "type": "blob",
               "hash": "d48c58554961f167f8e8b116c853cb457aeb8dff",
               "path": "git-visual/parser/.eslintignore",
               "name": ".eslintignore",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 3,
                 "Jonas Glerup Røssum": 3
@@ -901,7 +845,6 @@
               "hash": "5be230016c1be0935a1a08fce3ef98a5205219ad",
               "path": "git-visual/parser/.eslintrc.json",
               "name": ".eslintrc.json",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 28,
                 "Jonas Glerup Røssum": 7
@@ -915,7 +858,6 @@
               "hash": "1a7284c4cc30147a0c21466cf52651458b821e99",
               "path": "git-visual/parser/.gitignore",
               "name": ".gitignore",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 1,
                 "Jonas Glerup Røssum": 1,
@@ -930,7 +872,6 @@
               "hash": "cce9d3c0801773cf33a36f6e57afe78a06eebb89",
               "path": "git-visual/parser/.prettierrc",
               "name": ".prettierrc",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 3,
                 "Jonas Glerup Røssum": 3
@@ -944,7 +885,6 @@
               "hash": "5f006100d90c00b0b1a52ccffbc8d3133371eb8f",
               "path": "git-visual/parser/README.md",
               "name": "README.md",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 23,
                 "Jonas Glerup Røssum": 31,
@@ -960,7 +900,6 @@
               "hash": "e7b98b3edae948a697b9624dffae366ebf24047f",
               "path": "git-visual/parser/jest.config.js",
               "name": "jest.config.js",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 7,
                 "Jonas Glerup Røssum": 7
@@ -974,7 +913,6 @@
               "hash": "e366c33eccdf6805debc881001bfc1adfa54f1e0",
               "path": "git-visual/parser/package.json",
               "name": "package.json",
-              "content": "",
               "authors": {
                 "Jonas Glerup Røssum": 45,
                 "tjomson": 1,
@@ -990,14 +928,13 @@
               "type": "tree",
               "path": "git-visual/parser/src",
               "name": "src",
-              "hash": "2bef208114793592597e2ccc2ac065a82f2e0d9e",
+              "hash": "1ebe27b715a3970f3d6ef1d62232dd35db115f61",
               "children": [
                 {
                   "type": "blob",
                   "hash": "9f12958773d28b9a377826510fad13e4422ce925",
                   "path": "git-visual/parser/src/TruckIgnore.ts",
                   "name": "TruckIgnore.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 58
                   },
@@ -1010,7 +947,6 @@
                   "hash": "70534944f65d01221e8716bcc880974981cee7ae",
                   "path": "git-visual/parser/src/constants.ts",
                   "name": "constants.ts",
-                  "content": "",
                   "authors": {
                     "Kristoffer Højelse": 2,
                     "Thomas Hoffmann Kilbak": 1
@@ -1021,27 +957,25 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "515326fae7594f1321a34b77c7ecc9e3e8cf1066",
+                  "hash": "12788557a6ea055b436b8afa90e18f4e4407b7f4",
                   "path": "git-visual/parser/src/hydrate.ts",
                   "name": "hydrate.ts",
-                  "content": "",
                   "authors": {
+                    "Thomas Hoffmann Kilbak": 42,
                     "Kristoffer Højelse": 219,
                     "tjomson": 9,
-                    "Thomas Hoffmann Kilbak": 42,
                     "Jonas Glerup Røssum": 79,
                     "emiljapelt": 10
                   },
                   "noLines": 186,
-                  "noCommits": 8,
-                  "lastChangeEpoch": 1646400341
+                  "noCommits": 9,
+                  "lastChangeEpoch": 1646659498
                 },
                 {
                   "type": "blob",
                   "hash": "e72211488bec72c7b5ec1f23bff2f85546b59f5f",
                   "path": "git-visual/parser/src/index.ts",
                   "name": "index.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 115,
                     "Jonas Glerup Røssum": 316,
@@ -1060,7 +994,6 @@
                   "hash": "2e578b6b19f40216292395fe47f95a0b624e2a2f",
                   "path": "git-visual/parser/src/log.ts",
                   "name": "log.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 79
                   },
@@ -1070,29 +1003,27 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "dd8bad59924c0ce7198aad3d8c8aacd120e270d4",
+                  "hash": "3e6913d2cf4045320f704694862f92572bd0a38d",
                   "path": "git-visual/parser/src/model.ts",
                   "name": "model.ts",
-                  "content": "",
                   "authors": {
+                    "Thomas Hoffmann Kilbak": 25,
                     "Kristoffer Højelse": 14,
                     "Jonas Glerup Røssum": 26,
                     "tjomson": 36,
                     "emiljapelt": 47,
                     "joglr": 36,
-                    "Thomas Hoffmann Kilbak": 20,
                     "Jonas Røssum": 20
                   },
-                  "noLines": 73,
-                  "noCommits": 19,
-                  "lastChangeEpoch": 1646400341
+                  "noLines": 74,
+                  "noCommits": 21,
+                  "lastChangeEpoch": 1646659498
                 },
                 {
                   "type": "blob",
                   "hash": "63dc62c641a7baf9a662bd1147f34c288fa5e10f",
                   "path": "git-visual/parser/src/parse.test.ts",
                   "name": "parse.test.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 32
                   },
@@ -1105,7 +1036,6 @@
                   "hash": "b3df882d1e350d92b77af373fce6a87ceb8a55ef",
                   "path": "git-visual/parser/src/parse.ts",
                   "name": "parse.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 142,
                     "Kristoffer Højelse": 21,
@@ -1124,7 +1054,6 @@
                   "hash": "7edc97842a32f62dd9a0507e3b63878ecba43866",
                   "path": "git-visual/parser/src/queue.ts",
                   "name": "queue.ts",
-                  "content": "",
                   "authors": {
                     "Kristoffer Højelse": 86
                   },
@@ -1137,7 +1066,6 @@
                   "hash": "9d7310c382b9f2b5d70c2b569db603318b189a22",
                   "path": "git-visual/parser/src/util.test.ts",
                   "name": "util.test.ts",
-                  "content": "",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 8,
                     "Jonas Glerup Røssum": 8
@@ -1151,7 +1079,6 @@
                   "hash": "6cd48e637dbbe74a6da9a8cbb8714b6756268be8",
                   "path": "git-visual/parser/src/util.ts",
                   "name": "util.ts",
-                  "content": "",
                   "authors": {
                     "Jonas Glerup Røssum": 254,
                     "Thomas Hoffmann Kilbak": 20,
@@ -1172,7 +1099,6 @@
               "hash": "7b4fc6c0186f6e43d3d82d0b73ea091d1c5918ad",
               "path": "git-visual/parser/tsconfig.json",
               "name": "tsconfig.json",
-              "content": "",
               "authors": {
                 "Thomas Hoffmann Kilbak": 101,
                 "Jonas Glerup Røssum": 2,
@@ -1189,7 +1115,6 @@
           "hash": "38bef5ed49d7774c58dd4c6a4784d42d433fda85",
           "path": "git-visual/project-statement.md",
           "name": "project-statement.md",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 43
           },
@@ -1202,7 +1127,6 @@
           "hash": "6ab9218fa469555e90b6cfd57dd65f16d69517c7",
           "path": "git-visual/start.sh",
           "name": "start.sh",
-          "content": "",
           "authors": {
             "Jonas Glerup Røssum": 21
           },
@@ -1215,6 +1139,6 @@
     "minNoCommits": 1,
     "maxNoCommits": 28,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646662749
+    "newestLatestChangeEpoch": 1646668882
   }
 }
