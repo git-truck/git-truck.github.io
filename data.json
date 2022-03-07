@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "1890c7777e76f934821a649085c072729f9009e2",
-    "parent": "02b0ffbe9bf3f2a3560bd245d4cb67c7cb4955c5",
+    "hash": "7f772dba7c378350c388dbc76561f95817740bae",
+    "parent": "1890c7777e76f934821a649085c072729f9009e2",
     "parent2": null,
     "author": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646657235,
-      "timezone": "+0000"
-    },
-    "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com",
-      "timestamp": 1646657235,
+      "name": "Thomas Hoffmann Kilbak",
+      "email": "thki@queue-it.com",
+      "timestamp": 1646644497,
       "timezone": "+0100"
     },
-    "message": "Make tool runnable (#233)",
-    "description": "* Prevent crash if author not specified\r\nFixes #229\r\n\r\n* Determine output path from the current working directory instead of the repo path\r\nFixes #154\r\n\r\n* Add root script\r\nFixes #228\r\n\r\n* Fix parse script\r\n\r\n* Improve script output\r\n\r\n* Add dev and start script\r\n\r\n* Reuse old builds and fetch data via network to enable data injection into production builds\r\n\r\n* Update README\r\n\r\n* Update README.md\r\n\r\n* Update README\r\n\r\n* Make error message a bit more friendly\r\n\r\n* Fix scripts\r\n\r\n* Attempt to fix\r\n\r\n* Fix Tooltip\r\n\r\n* Rename useMetricCache to useMetricCaches\r\n\r\n* Update parse.sh\r\n\r\n* Rename Store -> Options",
+    "committer": {
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646660373,
+      "timezone": "+0000"
+    },
+    "message": "Add legend keys",
+    "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "1443f38d6feccd5b28d086c3cfcfc62cbd7e380b",
+      "hash": "65bda1e70f8bb38497dab567b0cc59316cc041bd",
       "children": [
         {
           "type": "tree",
@@ -218,7 +218,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "fe70fadcaed2c41e4e252f8b976bd7fa971fa5b0",
+          "hash": "f0d85052a080432a5c3b6f9d145eb7a715907776",
           "children": [
             {
               "type": "blob",
@@ -342,7 +342,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "52c778eb5043d60c6f3b4399fed0ef17021a7fe6",
+              "hash": "d7cb9633660d0b6df3a92d634eb0071013645807",
               "children": [
                 {
                   "type": "blob",
@@ -412,7 +412,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "6c490a80d867a34a9ce8268ea255d8721cf9bb27",
+                  "hash": "96732aab02bf877e910448d39af2d991333a9ac3",
                   "children": [
                     {
                       "type": "blob",
@@ -522,33 +522,33 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "ccd4ecf03c57cc8b88a220bf958097eafb36524e",
+                      "hash": "8889ec08d01eceed7809e89f329f16a748c66a47",
                       "path": "git-visual/app/src/components/LegendFragment.tsx",
                       "name": "LegendFragment.tsx",
                       "content": "",
                       "authors": {
+                        "Thomas Hoffmann Kilbak": 12,
                         "emiljapelt": 47,
-                        "Thomas Hoffmann Kilbak": 4,
                         "Jonas Glerup Røssum": 47
                       },
                       "noLines": 29,
-                      "noCommits": 7,
-                      "lastChangeEpoch": 1646247288
+                      "noCommits": 8,
+                      "lastChangeEpoch": 1646644497
                     },
                     {
                       "type": "blob",
-                      "hash": "6976704b21807d8335320b65b66157cc631332c3",
+                      "hash": "a8de41a2aa9307bd51151188f26c0121ee79d3f6",
                       "path": "git-visual/app/src/components/LegendOther.tsx",
                       "name": "LegendOther.tsx",
                       "content": "",
                       "authors": {
+                        "Thomas Hoffmann Kilbak": 5,
                         "emiljapelt": 45,
-                        "Thomas Hoffmann Kilbak": 2,
                         "Jonas Glerup Røssum": 45
                       },
-                      "noLines": 31,
-                      "noCommits": 6,
-                      "lastChangeEpoch": 1646247288
+                      "noLines": 32,
+                      "noCommits": 7,
+                      "lastChangeEpoch": 1646644497
                     },
                     {
                       "type": "blob",
