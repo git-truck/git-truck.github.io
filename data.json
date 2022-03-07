@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "7f772dba7c378350c388dbc76561f95817740bae",
-    "parent": "1890c7777e76f934821a649085c072729f9009e2",
+    "hash": "91ef15853d4fabc172815c7a7cab9a195b0fd977",
+    "parent": "83b122536fb933d448429eebcb4f62af88e34c53",
     "parent2": null,
     "author": {
-      "name": "Thomas Hoffmann Kilbak",
-      "email": "thki@queue-it.com",
-      "timestamp": 1646644497,
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646662749,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646660373,
-      "timezone": "+0000"
+      "name": "tjomson",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1646664736,
+      "timezone": "+0100"
     },
-    "message": "Add legend keys",
+    "message": "Remove unused styles",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "65bda1e70f8bb38497dab567b0cc59316cc041bd",
+      "hash": "bac2fe0ed3b4b939f6bc021864e8021ad2cd3849",
       "children": [
         {
           "type": "tree",
@@ -218,7 +218,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "f0d85052a080432a5c3b6f9d145eb7a715907776",
+          "hash": "7c6380633c4727603d8c1dfc7cbf42d8f1af3a14",
           "children": [
             {
               "type": "blob",
@@ -250,7 +250,7 @@
             },
             {
               "type": "blob",
-              "hash": "b9642195edc098551b61972c423afcc872b497e6",
+              "hash": "45a9a57f73b9ce74d86906408721dcb2453b0b29",
               "path": "git-visual/app/package.json",
               "name": "package.json",
               "content": "",
@@ -259,9 +259,9 @@
                 "emiljapelt": 5,
                 "Thomas Hoffmann Kilbak": 78
               },
-              "noLines": 83,
-              "noCommits": 9,
-              "lastChangeEpoch": 1646657235
+              "noLines": 84,
+              "noCommits": 14,
+              "lastChangeEpoch": 1646662285
             },
             {
               "type": "tree",
@@ -342,7 +342,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "d7cb9633660d0b6df3a92d634eb0071013645807",
+              "hash": "6ded80b00ff6c89429a470d61c7157a88cf4a553",
               "children": [
                 {
                   "type": "blob",
@@ -412,11 +412,11 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "96732aab02bf877e910448d39af2d991333a9ac3",
+                  "hash": "ace89af12dd5f7ceaa9ebd43283aac66cc65662b",
                   "children": [
                     {
                       "type": "blob",
-                      "hash": "12705155cf218bedf1f064189437b2fdb9bdc2eb",
+                      "hash": "ccc0561123e20dd3e42ca5b9f9e72d53452a5085",
                       "path": "git-visual/app/src/components/Chart.css",
                       "name": "Chart.css",
                       "content": "",
@@ -424,13 +424,13 @@
                         "Jonas Glerup Røssum": 23,
                         "tjomson": 23
                       },
-                      "noLines": 43,
-                      "noCommits": 1,
-                      "lastChangeEpoch": 1646061471
+                      "noLines": 26,
+                      "noCommits": 4,
+                      "lastChangeEpoch": 1646662749
                     },
                     {
                       "type": "blob",
-                      "hash": "5ea10ce7d3e7a2b037643a7bfbd80ddf4aa2c325",
+                      "hash": "68925e462ef0436124b6d6dfe0837e82a3003dd3",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "content": "",
@@ -439,9 +439,9 @@
                         "tjomson": 47,
                         "emiljapelt": 349
                       },
-                      "noLines": 351,
-                      "noCommits": 8,
-                      "lastChangeEpoch": 1646657235
+                      "noLines": 338,
+                      "noCommits": 11,
+                      "lastChangeEpoch": 1646662658
                     },
                     {
                       "type": "blob",
@@ -507,7 +507,7 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "162cf83e7b4bdc90fb0458bf055a717ce59e8325",
+                      "hash": "d6cfa445461295253855b1414d1b6d7937217ab7",
                       "path": "git-visual/app/src/components/Legend.tsx",
                       "name": "Legend.tsx",
                       "content": "",
@@ -517,8 +517,8 @@
                         "Thomas Hoffmann Kilbak": 4
                       },
                       "noLines": 64,
-                      "noCommits": 19,
-                      "lastChangeEpoch": 1646657235
+                      "noCommits": 20,
+                      "lastChangeEpoch": 1646660176
                     },
                     {
                       "type": "blob",
@@ -606,7 +606,7 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "fd9093b76d2655c640ecc3edcd158ccf9d082f28",
+                      "hash": "01af36242b072ce091fee9a8acbd048a13be567f",
                       "path": "git-visual/app/src/components/SearchBar.tsx",
                       "name": "SearchBar.tsx",
                       "content": "",
@@ -614,13 +614,13 @@
                         "Jonas Glerup Røssum": 36,
                         "tjomson": 36
                       },
-                      "noLines": 36,
-                      "noCommits": 1,
-                      "lastChangeEpoch": 1646061471
+                      "noLines": 44,
+                      "noCommits": 5,
+                      "lastChangeEpoch": 1646660270
                     },
                     {
                       "type": "blob",
-                      "hash": "b3b5322f74f608fe96c76c4951f0593ef8229867",
+                      "hash": "c1c8312a573164320ab0f64571f27d0c0177901c",
                       "path": "git-visual/app/src/components/SidePanel.tsx",
                       "name": "SidePanel.tsx",
                       "content": "",
@@ -630,9 +630,9 @@
                         "emiljapelt": 5,
                         "Kristoffer Højelse": 5
                       },
-                      "noLines": 29,
-                      "noCommits": 6,
-                      "lastChangeEpoch": 1646061471
+                      "noLines": 25,
+                      "noCommits": 8,
+                      "lastChangeEpoch": 1646660059
                     },
                     {
                       "type": "blob",
@@ -649,48 +649,48 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "b0516dd13be5479cb0d0f5714e24978dad3d790b",
+                      "hash": "9f73684e766965dce6f8e0118daed2a587b54f3b",
                       "path": "git-visual/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
                       "content": "",
                       "authors": {
-                        "Jonas Glerup Røssum": 132
+                        "Jonas Glerup Røssum": 133
                       },
-                      "noLines": 63,
-                      "noCommits": 5,
-                      "lastChangeEpoch": 1646657235
+                      "noLines": 64,
+                      "noCommits": 6,
+                      "lastChangeEpoch": 1646661986
                     },
                     {
                       "type": "blob",
-                      "hash": "2f39d68b0c6581713f8c8924655f1d22d43b3713",
+                      "hash": "9952d3b0ed08475d404a67dd67948caa505795df",
                       "path": "git-visual/app/src/components/util.tsx",
                       "name": "util.tsx",
                       "content": "",
                       "authors": {
+                        "Jonas Glerup Røssum": 149,
                         "emiljapelt": 77,
                         "Kristoffer Højelse": 4,
-                        "tjomson": 9,
-                        "Jonas Glerup Røssum": 149
+                        "tjomson": 9
                       },
-                      "noLines": 141,
-                      "noCommits": 12,
-                      "lastChangeEpoch": 1646646090
+                      "noLines": 133,
+                      "noCommits": 15,
+                      "lastChangeEpoch": 1646661559
                     }
                   ]
                 },
                 {
                   "type": "blob",
-                  "hash": "eb3446897d89d18c0da282adba6dff8a6565ee3f",
+                  "hash": "1c7c225d219dc278b5ee1a8244c1e05a24b3bc3e",
                   "path": "git-visual/app/src/const.ts",
                   "name": "const.ts",
                   "content": "",
                   "authors": {
-                    "Jonas Glerup Røssum": 13,
-                    "Thomas Hoffmann Kilbak": 13
+                    "Jonas Glerup Røssum": 14,
+                    "Thomas Hoffmann Kilbak": 14
                   },
-                  "noLines": 11,
-                  "noCommits": 2,
-                  "lastChangeEpoch": 1645631405
+                  "noLines": 12,
+                  "noCommits": 3,
+                  "lastChangeEpoch": 1646222348
                 },
                 {
                   "type": "blob",
@@ -722,17 +722,17 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "db5db42299a35b8061c498872e496acb52529b82",
+                  "hash": "be200bb5c2b6fb36fe9ec1c529dbdc9bfb9251c8",
                   "path": "git-visual/app/src/index.tsx",
                   "name": "index.tsx",
                   "content": "",
                   "authors": {
-                    "Jonas Glerup Røssum": 19,
-                    "Thomas Hoffmann Kilbak": 19
+                    "Jonas Glerup Røssum": 38,
+                    "Thomas Hoffmann Kilbak": 38
                   },
-                  "noLines": 19,
-                  "noCommits": 3,
-                  "lastChangeEpoch": 1645798777
+                  "noLines": 22,
+                  "noCommits": 5,
+                  "lastChangeEpoch": 1646662285
                 },
                 {
                   "type": "blob",
@@ -794,20 +794,20 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "8356c0dfaaec595648708c68456111147fc29451",
+                  "hash": "d2687ce8dd69194aaeae84604e3081b1ac52ea99",
                   "path": "git-visual/app/src/util.ts",
                   "name": "util.ts",
                   "content": "",
                   "authors": {
-                    "Jonas Glerup Røssum": 31
+                    "Jonas Glerup Røssum": 39
                   },
-                  "noLines": 21,
-                  "noCommits": 3,
-                  "lastChangeEpoch": 1646657235
+                  "noLines": 25,
+                  "noCommits": 4,
+                  "lastChangeEpoch": 1646222348
                 },
                 {
                   "type": "blob",
-                  "hash": "08c82c3ff0d9462eef8734ebaabad49c07fb9f76",
+                  "hash": "18d1d14d4019232cf8d18b8bc19e0b97e4d4ac0d",
                   "path": "git-visual/app/src/vars.css",
                   "name": "vars.css",
                   "content": "",
@@ -815,25 +815,25 @@
                     "Jonas Glerup Røssum": 13,
                     "tjomson": 2
                   },
-                  "noLines": 11,
-                  "noCommits": 4,
-                  "lastChangeEpoch": 1646061471
+                  "noLines": 16,
+                  "noCommits": 5,
+                  "lastChangeEpoch": 1646222348
                 }
               ]
             },
             {
               "type": "blob",
-              "hash": "a273b0cfc0e965c35524e3cd0d3574cbe1ad2d0d",
+              "hash": "a46e159ced9190803abddbfbc431943dda76ce30",
               "path": "git-visual/app/tsconfig.json",
               "name": "tsconfig.json",
               "content": "",
               "authors": {
-                "Thomas Hoffmann Kilbak": 26,
-                "Jonas Glerup Røssum": 26
+                "Jonas Glerup Røssum": 34,
+                "Thomas Hoffmann Kilbak": 34
               },
-              "noLines": 26,
-              "noCommits": 1,
-              "lastChangeEpoch": 1645471107
+              "noLines": 28,
+              "noCommits": 3,
+              "lastChangeEpoch": 1646662285
             }
           ]
         },
@@ -1215,6 +1215,6 @@
     "minNoCommits": 1,
     "maxNoCommits": 28,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646657235
+    "newestLatestChangeEpoch": 1646662749
   }
 }
