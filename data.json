@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "00d1b23949b93eff51397c7d5d6f75750a1084da",
-    "parent": "cb27f13c50608cd7c93aac158e67dfcc10d64a58",
+    "hash": "a340604988ca3237dff75ed8f3e2a5c2bf80bb92",
+    "parent": "00d1b23949b93eff51397c7d5d6f75750a1084da",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646816386,
-      "timezone": "+0000"
-    },
-    "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com",
-      "timestamp": 1646816386,
+      "timestamp": 1646752727,
       "timezone": "+0100"
     },
-    "message": "Improve CLI experience (#263)",
-    "description": "* Disable the production output when a log level is specified\r\nFixes #225\r\n\r\n* Log.error should print stack trace\r\nFixes #224\r\nFixes #\r\nAdd color\r\nAdd support for disabling color\r\nPrevent logging from being cleared\r\nCentralize README.md\r\n\r\n* Exit process when usage info is printed\r\n* Update usage information\r\n* Remove redundant print\r\n* Update README.md",
+    "committer": {
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646816558,
+      "timezone": "+0000"
+    },
+    "message": "Delayed bubble titles when changing from tree map",
+    "description": "Fixes #254",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "187dde6f6b03b6cfeee980798f8fe5d63749da96",
+      "hash": "99329492568aeca42a20d0dff749c55e380136f6",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "e0c2959972aa3236ca47137645924db4a6baea71",
+          "hash": "534f78844187da0ad9b21e29dd6bec5633186e62",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "7e94b042ec2ed137beb9cd5016e6c801fb7c9069",
+              "hash": "e6bcc7d1bc99dda795f4a89597033e76822032b6",
               "children": [
                 {
                   "type": "blob",
@@ -387,7 +387,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "dd20d007aa152df2d97a014394474ea7d35c1540",
+                  "hash": "81f07a9dc0105e5fccaf8bb6631bbbe23688baa4",
                   "children": [
                     {
                       "type": "blob",
@@ -404,7 +404,7 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "c74b6d5c7e6a97b6eca07fada95ddc5bc27f947c",
+                      "hash": "aee0303fc91f253902df8fd2dae7f84ffa8a5c84",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
@@ -412,9 +412,9 @@
                         "tjomson": 47,
                         "emiljapelt": 349
                       },
-                      "noLines": 336,
-                      "noCommits": 12,
-                      "lastChangeEpoch": 1646742744
+                      "noLines": 332,
+                      "noCommits": 13,
+                      "lastChangeEpoch": 1646752727
                     },
                     {
                       "type": "blob",
