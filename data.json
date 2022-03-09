@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "5f78d5aa43feb339cbe43d1fca94d99a34747ebd",
-    "parent": "01bc4bd6f005cab634b5b1c0474ecabd7419227f",
+    "hash": "cb27f13c50608cd7c93aac158e67dfcc10d64a58",
+    "parent": "5f78d5aa43feb339cbe43d1fca94d99a34747ebd",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646668882,
+      "timestamp": 1646742744,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646670394,
-      "timezone": "+0000"
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1646816048,
+      "timezone": "+0100"
     },
-    "message": "Reduce decimals of author distribution",
-    "description": "",
+    "message": "Legend is rendered twice",
+    "description": "Fixes #259",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "7e31f1a0865c8e0ecec602a11f588ee202465eda",
+      "hash": "8d52018fb22cf37ff85555a643fcaa96cdc6c224",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "44e1ec4a74025669bd149084a6b589f62bbf0968",
+          "hash": "e0c2959972aa3236ca47137645924db4a6baea71",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "803cdcb2ef5bc4be92f6ebdc3c7706ed9d61a967",
+              "hash": "7e94b042ec2ed137beb9cd5016e6c801fb7c9069",
               "children": [
                 {
                   "type": "blob",
@@ -387,7 +387,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "15f8521c2f069ef663eb9ee1d484ed82789b199b",
+                  "hash": "dd20d007aa152df2d97a014394474ea7d35c1540",
                   "children": [
                     {
                       "type": "blob",
@@ -404,7 +404,7 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "68925e462ef0436124b6d6dfe0837e82a3003dd3",
+                      "hash": "c74b6d5c7e6a97b6eca07fada95ddc5bc27f947c",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
@@ -412,9 +412,9 @@
                         "tjomson": 47,
                         "emiljapelt": 349
                       },
-                      "noLines": 338,
-                      "noCommits": 11,
-                      "lastChangeEpoch": 1646662658
+                      "noLines": 336,
+                      "noCommits": 12,
+                      "lastChangeEpoch": 1646742744
                     },
                     {
                       "type": "blob",
@@ -1139,6 +1139,6 @@
     "minNoCommits": 1,
     "maxNoCommits": 28,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646668882
+    "newestLatestChangeEpoch": 1646742744
   }
 }
