@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "593a4c8e8583645e6b67514cba58eaac8d75cda9",
-    "parent": "aca3d5c565c933c595ae699eddff57daeefe05f3",
-    "parent2": "33bf96508427f1e82566bf8f0c087d679b6c7274",
+    "hash": "9d2e76cb38423069bd1c08e80aef7f4b671401f8",
+    "parent": "593a4c8e8583645e6b67514cba58eaac8d75cda9",
+    "parent2": null,
     "author": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1646826306,
+      "name": "Thomas Hoffmann Kilbak",
+      "email": "thki@queue-it.com",
+      "timestamp": 1646827048,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com",
-      "timestamp": 1646826306,
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646827250,
       "timezone": "+0100"
     },
-    "message": "Merge pull request #280 from git-visual/126/union-authors-truck-config",
-    "description": "126/union authors truck config",
+    "message": "Rename color metric to metric",
+    "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "0a86c1506d8c53668b4e02da47c45d9b8fd3adca",
+      "hash": "b26db6d3470d7dc599703c953fb071b171380c71",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "004d9d836ae500cc2f06b657cc1370830b48c77b",
+          "hash": "edb794eaeb90ad2cd5acc2441a5676df33dfc7cf",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "742ec4d9d739d464f5e92c03b3678c8c5ec484ef",
+              "hash": "fad820cb1adc1c469f3984c996813749eee30fc7",
               "children": [
                 {
                   "type": "blob",
@@ -367,7 +367,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "12548da4b5bb6990de08978e5b12485b357f1ad7",
+                  "hash": "cce60748d45f2157e1db298b7f73b35b0e1f1350",
                   "children": [
                     {
                       "type": "blob",
@@ -415,10 +415,15 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "f85534e4b4ca90bc71fcfe821af14099603aba6b",
+                      "hash": "3b025683c905d70154d16d5c7cc69c723ebbb2ba",
                       "path": "git-visual/app/src/components/EnumSelect.test.tsx",
                       "name": "EnumSelect.test.tsx",
-                      "authors": {}
+                      "authors": {
+                        "Thomas Hoffmann Kilbak": 2
+                      },
+                      "noLines": 21,
+                      "noCommits": 1,
+                      "lastChangeEpoch": 1646827048
                     },
                     {
                       "type": "blob",
@@ -514,16 +519,16 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "14168b4ba4839b3c7f8bf8cc92b609695c230e76",
+                      "hash": "0b76edb7bd9c0267177d83ff7b7aab3c7910ee4e",
                       "path": "git-visual/app/src/components/Options.tsx",
                       "name": "Options.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 2,
+                        "Thomas Hoffmann Kilbak": 4,
                         "Jonas Glerup Røssum": 188
                       },
                       "noLines": 24,
-                      "noCommits": 11,
-                      "lastChangeEpoch": 1646817418
+                      "noCommits": 12,
+                      "lastChangeEpoch": 1646827048
                     },
                     {
                       "type": "blob",
@@ -1188,7 +1193,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 30,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646825687
+    "newestLatestChangeEpoch": 1646827048
   },
   "authorUnions": [
     [
