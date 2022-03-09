@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "b02ed38766741400d8d0e0b30010fd86a0347040",
-    "parent": "a340604988ca3237dff75ed8f3e2a5c2bf80bb92",
+    "hash": "864d22533c49eb1266eb61806c915b276fd06a57",
+    "parent": "b02ed38766741400d8d0e0b30010fd86a0347040",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646759315,
+      "timestamp": 1646821818,
       "timezone": "+0100"
     },
     "committer": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646817135,
+      "timestamp": 1646822385,
       "timezone": "+0000"
     },
-    "message": "Use official GitHub colors and add \"Other\"",
-    "description": "",
+    "message": "Add default branch name scheme to settings",
+    "description": "Fixes #273",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "a9e2bfcc1fa93a8efe894b1f2b362b761da48b9e",
+      "hash": "7a18826dc19687a7e94e93c8358896413d10e191",
       "children": [
         {
           "type": "tree",
@@ -133,7 +133,7 @@
           "type": "tree",
           "path": "git-visual/.vscode",
           "name": ".vscode",
-          "hash": "ca0ee2c385e2566808cac8ead109a99223c70be8",
+          "hash": "8c8262fcb8cbf3ab7094d537f912d88bf9efc8b5",
           "children": [
             {
               "type": "blob",
@@ -165,16 +165,16 @@
             },
             {
               "type": "blob",
-              "hash": "d974ff54b2c5794feba240007965fd15d3522d12",
+              "hash": "dcc3ef7521c52c7841b5389a26f51e8b129aee84",
               "path": "git-visual/.vscode/settings.json",
               "name": "settings.json",
               "authors": {
-                "Jonas Glerup Røssum": 6,
-                "Thomas Hoffmann Kilbak": 6
+                "Jonas Glerup Røssum": 9,
+                "Thomas Hoffmann Kilbak": 9
               },
-              "noLines": 4,
-              "noCommits": 2,
-              "lastChangeEpoch": 1646065297
+              "noLines": 5,
+              "noCommits": 3,
+              "lastChangeEpoch": 1646821818
             }
           ]
         },
@@ -410,7 +410,7 @@
                       "authors": {
                         "Jonas Glerup Røssum": 512,
                         "tjomson": 47,
-                        "emiljapelt": 349
+                        "emiljapelt": 512
                       },
                       "noLines": 332,
                       "noCommits": 13,
@@ -1034,9 +1034,9 @@
                     "Thomas Hoffmann Kilbak": 25,
                     "Kristoffer Højelse": 14,
                     "Jonas Glerup Røssum": 26,
-                    "tjomson": 21,
-                    "joglr": 21,
+                    "tjomson": 36,
                     "emiljapelt": 47,
+                    "joglr": 36,
                     "Jonas Røssum": 20
                   },
                   "noLines": 74,
@@ -1065,8 +1065,8 @@
                     "Kristoffer Højelse": 21,
                     "tjomson": 19,
                     "Thomas Hoffmann Kilbak": 159,
-                    "joglr": 39,
                     "emiljapelt": 40,
+                    "joglr": 40,
                     "Jonas Røssum": 125
                   },
                   "noLines": 231,
@@ -1163,6 +1163,6 @@
     "minNoCommits": 1,
     "maxNoCommits": 29,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646816386
+    "newestLatestChangeEpoch": 1646821818
   }
 }
