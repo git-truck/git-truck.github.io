@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "cb27f13c50608cd7c93aac158e67dfcc10d64a58",
-    "parent": "5f78d5aa43feb339cbe43d1fca94d99a34747ebd",
+    "hash": "00d1b23949b93eff51397c7d5d6f75750a1084da",
+    "parent": "cb27f13c50608cd7c93aac158e67dfcc10d64a58",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646742744,
-      "timezone": "+0100"
+      "timestamp": 1646816386,
+      "timezone": "+0000"
     },
     "committer": {
-      "name": "Kristoffer Højelse",
-      "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1646816048,
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "timestamp": 1646816386,
       "timezone": "+0100"
     },
-    "message": "Legend is rendered twice",
-    "description": "Fixes #259",
+    "message": "Improve CLI experience (#263)",
+    "description": "* Disable the production output when a log level is specified\r\nFixes #225\r\n\r\n* Log.error should print stack trace\r\nFixes #224\r\nFixes #\r\nAdd color\r\nAdd support for disabling color\r\nPrevent logging from being cleared\r\nCentralize README.md\r\n\r\n* Exit process when usage info is printed\r\n* Update usage information\r\n* Remove redundant print\r\n* Update README.md",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "8d52018fb22cf37ff85555a643fcaa96cdc6c224",
+      "hash": "187dde6f6b03b6cfeee980798f8fe5d63749da96",
       "children": [
         {
           "type": "tree",
@@ -71,17 +71,17 @@
         },
         {
           "type": "blob",
-          "hash": "007bdd403253298eb62f2d17d57ffece44a5f8e6",
+          "hash": "c2e4d2a6b17ba104e373853d64130ed34640fbd3",
           "path": "git-visual/.gitignore",
           "name": ".gitignore",
           "authors": {
-            "Thomas Hoffmann Kilbak": 4,
-            "Jonas Glerup Røssum": 3,
+            "Jonas Glerup Røssum": 4,
+            "Thomas Hoffmann Kilbak": 5,
             "Jonas Røssum": 2
           },
-          "noLines": 3,
-          "noCommits": 4,
-          "lastChangeEpoch": 1645471107
+          "noLines": 4,
+          "noCommits": 5,
+          "lastChangeEpoch": 1646816386
         },
         {
           "type": "tree",
@@ -192,16 +192,16 @@
         },
         {
           "type": "blob",
-          "hash": "649576dc66fb964d88401cb78a279ee654593e8f",
+          "hash": "f5243d7f757f2f0269e15aa262f16b3f7e881046",
           "path": "git-visual/README.md",
           "name": "README.md",
           "authors": {
-            "Jonas Glerup Røssum": 56,
+            "Jonas Glerup Røssum": 123,
             "Kristoffer Højelse": 2
           },
-          "noLines": 58,
-          "noCommits": 2,
-          "lastChangeEpoch": 1646657235
+          "noLines": 111,
+          "noCommits": 3,
+          "lastChangeEpoch": 1646816386
         },
         {
           "type": "tree",
@@ -799,33 +799,33 @@
         },
         {
           "type": "blob",
-          "hash": "ededbda0528b438e8d612e5c1a89f711901d54dc",
+          "hash": "f09ddaaca270acbc1112a46ac8bb9c4c8decb0b5",
           "path": "git-visual/dev.sh",
           "name": "dev.sh",
           "authors": {
-            "Jonas Glerup Røssum": 12
+            "Jonas Glerup Røssum": 24
           },
-          "noLines": 12,
-          "noCommits": 1,
-          "lastChangeEpoch": 1646657235
+          "noLines": 20,
+          "noCommits": 2,
+          "lastChangeEpoch": 1646816386
         },
         {
           "type": "blob",
-          "hash": "7f2d6ca512e97b658aba92ad0c3f2103bb9925e1",
+          "hash": "f7bb6c4979c56794ab40887b5e8b1e24d92b15b6",
           "path": "git-visual/parse.sh",
           "name": "parse.sh",
           "authors": {
-            "Jonas Glerup Røssum": 21
+            "Jonas Glerup Røssum": 34
           },
-          "noLines": 21,
-          "noCommits": 1,
-          "lastChangeEpoch": 1646657235
+          "noLines": 26,
+          "noCommits": 2,
+          "lastChangeEpoch": 1646816386
         },
         {
           "type": "tree",
           "path": "git-visual/parser",
           "name": "parser",
-          "hash": "c0c09488e5c1dd93ba9d83e5e6297cedc15be14b",
+          "hash": "4e10d83e13f83b40bc303259285b3fdd71f355de",
           "children": [
             {
               "type": "blob",
@@ -882,18 +882,18 @@
             },
             {
               "type": "blob",
-              "hash": "5f006100d90c00b0b1a52ccffbc8d3133371eb8f",
+              "hash": "170be3bc5c87c4dd54ea148e1ffd7e5588e30846",
               "path": "git-visual/parser/README.md",
               "name": "README.md",
               "authors": {
+                "Jonas Glerup Røssum": 69,
                 "Thomas Hoffmann Kilbak": 23,
-                "Jonas Glerup Røssum": 31,
                 "Jonas Røssum": 17,
                 "joglr": 2
               },
-              "noLines": 38,
-              "noCommits": 11,
-              "lastChangeEpoch": 1645298933
+              "noLines": 3,
+              "noCommits": 12,
+              "lastChangeEpoch": 1646816386
             },
             {
               "type": "blob",
@@ -910,25 +910,25 @@
             },
             {
               "type": "blob",
-              "hash": "e366c33eccdf6805debc881001bfc1adfa54f1e0",
+              "hash": "7172caa42f7bfc9b4ec2587ad5b67ecaba103579",
               "path": "git-visual/parser/package.json",
               "name": "package.json",
               "authors": {
-                "Jonas Glerup Røssum": 45,
+                "Jonas Glerup Røssum": 48,
                 "tjomson": 1,
-                "Thomas Hoffmann Kilbak": 56,
+                "Thomas Hoffmann Kilbak": 59,
                 "Jonas Røssum": 2,
                 "joglr": 4
               },
-              "noLines": 56,
-              "noCommits": 11,
-              "lastChangeEpoch": 1646657235
+              "noLines": 59,
+              "noCommits": 12,
+              "lastChangeEpoch": 1646816386
             },
             {
               "type": "tree",
               "path": "git-visual/parser/src",
               "name": "src",
-              "hash": "1ebe27b715a3970f3d6ef1d62232dd35db115f61",
+              "hash": "5e99c00c3ae0f9cb11790237b4e6869023f2c530",
               "children": [
                 {
                   "type": "blob",
@@ -991,15 +991,15 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "2e578b6b19f40216292395fe47f95a0b624e2a2f",
+                  "hash": "fd5979643f173b0ed992a8e3cfc818f66cc565c4",
                   "path": "git-visual/parser/src/log.ts",
                   "name": "log.ts",
                   "authors": {
-                    "Jonas Glerup Røssum": 79
+                    "Jonas Glerup Røssum": 178
                   },
-                  "noLines": 75,
-                  "noCommits": 2,
-                  "lastChangeEpoch": 1645310109
+                  "noLines": 102,
+                  "noCommits": 3,
+                  "lastChangeEpoch": 1646816386
                 },
                 {
                   "type": "blob",
@@ -1033,7 +1033,7 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "b3df882d1e350d92b77af373fce6a87ceb8a55ef",
+                  "hash": "691de1fa737b0d9b700289d5647cd2ab841c34bd",
                   "path": "git-visual/parser/src/parse.ts",
                   "name": "parse.ts",
                   "authors": {
@@ -1046,8 +1046,8 @@
                     "Jonas Røssum": 125
                   },
                   "noLines": 231,
-                  "noCommits": 28,
-                  "lastChangeEpoch": 1646657235
+                  "noCommits": 29,
+                  "lastChangeEpoch": 1646816386
                 },
                 {
                   "type": "blob",
@@ -1076,7 +1076,7 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "6cd48e637dbbe74a6da9a8cbb8714b6756268be8",
+                  "hash": "b91c42f9038237b1f9629b8696b6c6212dcecbb2",
                   "path": "git-visual/parser/src/util.ts",
                   "name": "util.ts",
                   "authors": {
@@ -1089,8 +1089,8 @@
                     "Jonas Røssum": 107
                   },
                   "noLines": 166,
-                  "noCommits": 28,
-                  "lastChangeEpoch": 1645527451
+                  "noCommits": 29,
+                  "lastChangeEpoch": 1646816386
                 }
               ]
             },
@@ -1124,21 +1124,21 @@
         },
         {
           "type": "blob",
-          "hash": "6ab9218fa469555e90b6cfd57dd65f16d69517c7",
+          "hash": "4508cca7c2352a3bd489fd024148c58eb12d1eb8",
           "path": "git-visual/start.sh",
           "name": "start.sh",
           "authors": {
-            "Jonas Glerup Røssum": 21
+            "Jonas Glerup Røssum": 43
           },
-          "noLines": 21,
-          "noCommits": 1,
-          "lastChangeEpoch": 1646657235
+          "noLines": 37,
+          "noCommits": 2,
+          "lastChangeEpoch": 1646816386
         }
       ]
     },
     "minNoCommits": 1,
-    "maxNoCommits": 28,
+    "maxNoCommits": 29,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646742744
+    "newestLatestChangeEpoch": 1646816386
   }
 }
