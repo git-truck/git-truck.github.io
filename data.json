@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "864d22533c49eb1266eb61806c915b276fd06a57",
-    "parent": "b02ed38766741400d8d0e0b30010fd86a0347040",
+    "hash": "3a69dfe3bf261e01e3f705095e7248e95faf67a9",
+    "parent": "864d22533c49eb1266eb61806c915b276fd06a57",
     "parent2": null,
     "author": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646821818,
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1646819685,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646822385,
-      "timezone": "+0000"
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1646822653,
+      "timezone": "+0100"
     },
-    "message": "Add default branch name scheme to settings",
-    "description": "Fixes #273",
+    "message": "Reduce padding on bubblechart",
+    "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "7a18826dc19687a7e94e93c8358896413d10e191",
+      "hash": "faadbcffbf7bcc24abce2813cd0722af65751df1",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "cbe76c33c7800250c96f6029e4316390f251f45b",
+          "hash": "3cf14b6b3057977a710a04519f7575dec0007c28",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "2d36bba93936d0eebe4137a2b6719cf110efdd32",
+              "hash": "d0cf3d0026a0213c0985cd33ff4ef5e8ea095abd",
               "children": [
                 {
                   "type": "blob",
@@ -387,7 +387,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "81f07a9dc0105e5fccaf8bb6631bbbe23688baa4",
+                  "hash": "1dba1a9a2bc3b63dcf49251853a5188c3de59c51",
                   "children": [
                     {
                       "type": "blob",
@@ -404,17 +404,18 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "aee0303fc91f253902df8fd2dae7f84ffa8a5c84",
+                      "hash": "b7481a00d6ee523d4459e8718049ed8a005512e7",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
+                        "Kristoffer Højelse": 22,
                         "Jonas Glerup Røssum": 512,
                         "tjomson": 47,
-                        "emiljapelt": 512
+                        "emiljapelt": 349
                       },
-                      "noLines": 332,
-                      "noCommits": 13,
-                      "lastChangeEpoch": 1646752727
+                      "noLines": 350,
+                      "noCommits": 14,
+                      "lastChangeEpoch": 1646819685
                     },
                     {
                       "type": "blob",
@@ -638,16 +639,17 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "1c7c225d219dc278b5ee1a8244c1e05a24b3bc3e",
+                  "hash": "38e7cd64fa5fc68a3e75ad7003459494cf9e1053",
                   "path": "git-visual/app/src/const.ts",
                   "name": "const.ts",
                   "authors": {
+                    "Kristoffer Højelse": 4,
                     "Jonas Glerup Røssum": 14,
                     "Thomas Hoffmann Kilbak": 14
                   },
                   "noLines": 12,
-                  "noCommits": 3,
-                  "lastChangeEpoch": 1646222348
+                  "noCommits": 4,
+                  "lastChangeEpoch": 1646819685
                 },
                 {
                   "type": "blob",
@@ -675,17 +677,18 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "77bc75212558c43c1065aef22ce723802206e800",
+                  "hash": "95a11f4e644ed7ba375c15dd82ed24a4be2f761f",
                   "path": "git-visual/app/src/index.css",
                   "name": "index.css",
                   "authors": {
+                    "Kristoffer Højelse": 2,
                     "Jonas Glerup Røssum": 47,
                     "tjomson": 6,
                     "Thomas Hoffmann Kilbak": 47
                   },
                   "noLines": 35,
-                  "noCommits": 6,
-                  "lastChangeEpoch": 1646668066
+                  "noCommits": 7,
+                  "lastChangeEpoch": 1646819685
                 },
                 {
                   "type": "blob",
@@ -781,16 +784,17 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "b35cd164be84e9c31cfdb4c36859248071de2165",
+                  "hash": "0bcd02335be56f1f7630dd745f6892faa937b5f0",
                   "path": "git-visual/app/src/vars.css",
                   "name": "vars.css",
                   "authors": {
+                    "Kristoffer Højelse": 1,
                     "Jonas Glerup Røssum": 13,
                     "tjomson": 2
                   },
-                  "noLines": 16,
-                  "noCommits": 6,
-                  "lastChangeEpoch": 1646668676
+                  "noLines": 17,
+                  "noCommits": 7,
+                  "lastChangeEpoch": 1646819685
                 }
               ]
             },
