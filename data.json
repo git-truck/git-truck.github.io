@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "3a69dfe3bf261e01e3f705095e7248e95faf67a9",
-    "parent": "864d22533c49eb1266eb61806c915b276fd06a57",
-    "parent2": null,
+    "hash": "aca3d5c565c933c595ae699eddff57daeefe05f3",
+    "parent": "3a69dfe3bf261e01e3f705095e7248e95faf67a9",
+    "parent2": "6cb6021674103d540fa2dd8a471f9e3b95711f7c",
     "author": {
       "name": "Kristoffer Højelse",
       "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1646819685,
+      "timestamp": 1646823350,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Kristoffer Højelse",
-      "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1646822653,
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "timestamp": 1646823350,
       "timezone": "+0100"
     },
-    "message": "Reduce padding on bubblechart",
-    "description": "",
+    "message": "Merge pull request #272 from git-visual/271/dominace-color-palette",
+    "description": "Update dominance color, color palette",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "faadbcffbf7bcc24abce2813cd0722af65751df1",
+      "hash": "a5b2d89f2465aa5e2f9095568b95d06e42b7a568",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "3cf14b6b3057977a710a04519f7575dec0007c28",
+          "hash": "bcb1a6eb193a2164bbc6403ff983e7f3b79f72e2",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "d0cf3d0026a0213c0985cd33ff4ef5e8ea095abd",
+              "hash": "082a484a6d846e7e9e0c48fd124fdcb51d035fba",
               "children": [
                 {
                   "type": "blob",
@@ -717,18 +717,18 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "b07b79a2b29e586a164d04c3db904a310cff85c9",
+                  "hash": "eb0d1e82f0af6157c287c005068aca478dea6145",
                   "path": "git-visual/app/src/metrics.ts",
                   "name": "metrics.ts",
                   "authors": {
+                    "Kristoffer Højelse": 38,
                     "Jonas Glerup Røssum": 38,
                     "Thomas Hoffmann Kilbak": 38,
-                    "Kristoffer Højelse": 22,
                     "emiljapelt": 411
                   },
-                  "noLines": 313,
-                  "noCommits": 17,
-                  "lastChangeEpoch": 1646759315
+                  "noLines": 317,
+                  "noCommits": 18,
+                  "lastChangeEpoch": 1646821032
                 },
                 {
                   "type": "blob",
@@ -784,16 +784,16 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "0bcd02335be56f1f7630dd745f6892faa937b5f0",
+                  "hash": "10f58d328509ff9c6ea07b19d134003db9ef154f",
                   "path": "git-visual/app/src/vars.css",
                   "name": "vars.css",
                   "authors": {
-                    "Kristoffer Højelse": 1,
+                    "Kristoffer Højelse": 22,
                     "Jonas Glerup Røssum": 13,
                     "tjomson": 2
                   },
                   "noLines": 17,
-                  "noCommits": 7,
+                  "noCommits": 8,
                   "lastChangeEpoch": 1646819685
                 }
               ]
