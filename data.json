@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "8943a6146d8ddad1f13f6567bb4988f3452d4cb7",
-    "parent": "f6f93916f234772fbb2ac63db91adbe5d411c8a8",
+    "hash": "efa7aa92fee54870b1f321ab35d54ea1f6d42f0c",
+    "parent": "6b8524841c5097a222d8db46511e4496796fde6b",
     "parent2": null,
     "author": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1647004641,
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1647006635,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647004840,
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1647007161,
       "timezone": "+0100"
     },
-    "message": "Make binary files noLines 0",
+    "message": "Update layout for linecount=0",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "31935e4e3615fc2905ac0d14a48bd01972756785",
+      "hash": "3c9676235019d59b3e84cf0f9cfcb33f455e6c7e",
       "children": [
         {
           "type": "tree",
@@ -219,7 +219,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "768bf6d9609e63926775050dc49d4e4ef91c1b68",
+          "hash": "669af90ae7b75a993c569de3f3b68772a4c7fa3c",
           "children": [
             {
               "type": "blob",
@@ -352,7 +352,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "e5a917672a2e08a65b78088f9ec0c021bbd710dd",
+              "hash": "4f91c163af19a1b8482e5fc7a3725ad7c39ffbce",
               "children": [
                 {
                   "type": "blob",
@@ -416,7 +416,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "945613c8cfe0b975f3bd38df7e953b048d2fc096",
+                  "hash": "6c6c46914181f7cb1db3a181698fae7ec43a585f",
                   "children": [
                     {
                       "type": "blob",
@@ -451,19 +451,19 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "ee04359d1eb2e4ef8fe29b9177195fe72905747e",
+                      "hash": "234da5c0b371507205c71a83030573ae13a14079",
                       "path": "git-visual/app/src/components/Details.tsx",
                       "name": "Details.tsx",
                       "authors": {
+                        "Kristoffer Højelse": 172,
                         "Thomas Hoffmann Kilbak": 69,
                         "Jonas Glerup Røssum": 162,
-                        "tjomson": 42,
-                        "Kristoffer Højelse": 6
+                        "tjomson": 42
                       },
-                      "noLines": 127,
-                      "noCommits": 17,
+                      "noLines": 143,
+                      "noCommits": 19,
                       "isBinary": false,
-                      "lastChangeEpoch": 1647003195
+                      "lastChangeEpoch": 1647006635
                     },
                     {
                       "type": "blob",
@@ -668,19 +668,19 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "e4b9e88b56a1bbc36371161469657861ebf5ecf1",
+                      "hash": "e0566afad748af5f1ab3db88b92c2ecd82e1b83e",
                       "path": "git-visual/app/src/components/util.tsx",
                       "name": "util.tsx",
                       "authors": {
+                        "Kristoffer Højelse": 5,
                         "Jonas Glerup Røssum": 149,
                         "emiljapelt": 77,
-                        "Kristoffer Højelse": 4,
                         "tjomson": 9
                       },
-                      "noLines": 133,
-                      "noCommits": 16,
+                      "noLines": 134,
+                      "noCommits": 17,
                       "isBinary": false,
-                      "lastChangeEpoch": 1646668066
+                      "lastChangeEpoch": 1647005157
                     }
                   ]
                 },
@@ -1326,7 +1326,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 31,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647004641
+    "newestLatestChangeEpoch": 1647006635
   },
   "authorUnions": [
     [
