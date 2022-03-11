@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "49c7283d82cf4d05dee7fb032f9b7640c4890ac2",
-    "parent": "a6d2d4b6c3bb7e25922309b54828a8e25f6f0611",
+    "hash": "a46c6c299055d4e7d3d7812de1ff960727ee15d8",
+    "parent": "d07ce8617cb1e72341da8dbe5f53a4de069a8a6d",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646992872,
+      "timestamp": 1647002036,
       "timezone": "+0100"
     },
     "committer": {
       "name": "tjomson",
       "email": "thomaskilbak@gmail.com",
-      "timestamp": 1646999239,
+      "timestamp": 1647002404,
       "timezone": "+0100"
     },
-    "message": "Handle duplicate arguments",
-    "description": "Fixes #247",
+    "message": "Refactor makeDupeMap",
+    "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "0c184d2043a256f316265cfdc41d45071ca50af9",
+      "hash": "a3a6f13a659537b8ffbabcb158aabeb717e39398",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "218fe135a5529fe8efaf0960f164f8e4b0aa7245",
+          "hash": "c12c8bf73e7ece244f4e9e54291531a0a9398aea",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "5b8f87bfafddb8f58535697df2de2f12f17bb005",
+              "hash": "d3415a33e772fcd44675bd5abf84fc8e7193b659",
               "children": [
                 {
                   "type": "blob",
@@ -355,21 +355,34 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "98a5b1df1359666e9ca8be104d4cbc0bff234b08",
+                  "hash": "fc495fba173d532d8951392939d747e80e84b869",
+                  "path": "git-visual/app/src/authorUnionUtil.test.ts",
+                  "name": "authorUnionUtil.test.ts",
+                  "authors": {
+                    "Jonas Glerup Røssum": 82
+                  },
+                  "noLines": 82,
+                  "noCommits": 1,
+                  "lastChangeEpoch": 1647000416
+                },
+                {
+                  "type": "blob",
+                  "hash": "37ec2abaa86d15eaf38661b5d575e29d9d0113c0",
                   "path": "git-visual/app/src/authorUnionUtil.ts",
                   "name": "authorUnionUtil.ts",
                   "authors": {
+                    "Jonas Glerup Røssum": 48,
                     "Thomas Hoffmann Kilbak": 32
                   },
-                  "noLines": 32,
-                  "noCommits": 1,
-                  "lastChangeEpoch": 1646825053
+                  "noLines": 52,
+                  "noCommits": 3,
+                  "lastChangeEpoch": 1647002036
                 },
                 {
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "78c874ef155e2a19d4d497174cd8f1675ca3421a",
+                  "hash": "2c52c8f9839eeb6314f9a3e2be6cadfbccd2b279",
                   "children": [
                     {
                       "type": "blob",
@@ -535,17 +548,17 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "10ea2dfa7f8ba30a8a40a315d9db350a363003b3",
+                      "hash": "fef4769c62e3fdf66386155b4372de4ede4694ed",
                       "path": "git-visual/app/src/components/Providers.tsx",
                       "name": "Providers.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 86,
                         "Jonas Glerup Røssum": 39,
+                        "Thomas Hoffmann Kilbak": 86,
                         "tjomson": 39
                       },
-                      "noLines": 127,
-                      "noCommits": 5,
-                      "lastChangeEpoch": 1646825053
+                      "noLines": 128,
+                      "noCommits": 6,
+                      "lastChangeEpoch": 1647000416
                     },
                     {
                       "type": "blob",
@@ -892,7 +905,7 @@
           "type": "tree",
           "path": "git-visual/parser",
           "name": "parser",
-          "hash": "db65a35ef3f13b5e9a9f74e1fe7b595ae13d04dc",
+          "hash": "e53f56ebca7c5c4a8fe54c09ba0e7febee2c0e16",
           "children": [
             {
               "type": "blob",
@@ -995,7 +1008,7 @@
               "type": "tree",
               "path": "git-visual/parser/src",
               "name": "src",
-              "hash": "766b9c13ba8fd8f5adb0fd7e83b13c4a94a1867a",
+              "hash": "fd9ba1a97d94d46f479a7ac298f8c5edfb6ce637",
               "children": [
                 {
                   "type": "blob",
@@ -1071,21 +1084,21 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "bfbb45a723677a660b63cc9fb2e08a606ba7bb17",
+                  "hash": "fc24c9e7cdc1fa45c0ecc15af27bc7549e82d9fc",
                   "path": "git-visual/parser/src/model.ts",
                   "name": "model.ts",
                   "authors": {
+                    "Jonas Glerup Røssum": 26,
                     "Thomas Hoffmann Kilbak": 27,
                     "Kristoffer Højelse": 14,
-                    "Jonas Glerup Røssum": 26,
                     "tjomson": 36,
                     "emiljapelt": 47,
                     "joglr": 76,
                     "Jonas Røssum": 20
                   },
                   "noLines": 76,
-                  "noCommits": 24,
-                  "lastChangeEpoch": 1646824293
+                  "noCommits": 25,
+                  "lastChangeEpoch": 1647000416
                 },
                 {
                   "type": "blob",
@@ -1219,7 +1232,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 31,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646998488
+    "newestLatestChangeEpoch": 1647002036
   },
   "authorUnions": [
     [
