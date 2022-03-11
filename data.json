@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "527501cfc90491a82d7c97512e3b5f14e7792a0e",
-    "parent": "a76da31b90c6a5c35a5641cb5d1e80c301b50a1b",
+    "hash": "a6d2d4b6c3bb7e25922309b54828a8e25f6f0611",
+    "parent": "527501cfc90491a82d7c97512e3b5f14e7792a0e",
     "parent2": null,
     "author": {
-      "name": "Thomas Hoffmann Kilbak",
-      "email": "thki@queue-it.com",
-      "timestamp": 1646998488,
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1646993774,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "emiljapelt",
-      "email": "55390848+emiljapelt@users.noreply.github.com",
-      "timestamp": 1646998873,
+      "name": "tjomson",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1646999023,
       "timezone": "+0100"
     },
-    "message": "Move magic number to constant",
-    "description": "",
+    "message": "Hide Tooltip when switching chart type",
+    "description": "Fixes #267",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "607c96d5d7e88cc04ce404abac8f514a66eded29",
+      "hash": "0c81159c00eba469e2caf4235e1953c150a01963",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "1b108860c191fcd1775e66dfa0a534de45e2e609",
+          "hash": "218fe135a5529fe8efaf0960f164f8e4b0aa7245",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "ad59323409032afd79a8574313daf463bc1abfc5",
+              "hash": "5b8f87bfafddb8f58535697df2de2f12f17bb005",
               "children": [
                 {
                   "type": "blob",
@@ -369,7 +369,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "03809ecca3a0a89067703d50dc7c070e4a0b2a9d",
+                  "hash": "78c874ef155e2a19d4d497174cd8f1675ca3421a",
                   "children": [
                     {
                       "type": "blob",
@@ -386,19 +386,19 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "04071450160200884de1ea13f4ae475186c3a556",
+                      "hash": "c981bbdabe255a66d7e7c9c51c0be9d40cffbdf5",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
+                        "Jonas Glerup Røssum": 360,
                         "Thomas Hoffmann Kilbak": 24,
                         "emiljapelt": 349,
                         "Kristoffer Højelse": 22,
-                        "Jonas Glerup Røssum": 359,
                         "tjomson": 47
                       },
-                      "noLines": 359,
-                      "noCommits": 22,
-                      "lastChangeEpoch": 1646998488
+                      "noLines": 360,
+                      "noCommits": 23,
+                      "lastChangeEpoch": 1646993774
                     },
                     {
                       "type": "blob",
