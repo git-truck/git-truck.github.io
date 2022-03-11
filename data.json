@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "a6d2d4b6c3bb7e25922309b54828a8e25f6f0611",
-    "parent": "527501cfc90491a82d7c97512e3b5f14e7792a0e",
+    "hash": "49c7283d82cf4d05dee7fb032f9b7640c4890ac2",
+    "parent": "a6d2d4b6c3bb7e25922309b54828a8e25f6f0611",
     "parent2": null,
     "author": {
       "name": "Jonas Glerup Røssum",
       "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1646993774,
+      "timestamp": 1646992872,
       "timezone": "+0100"
     },
     "committer": {
       "name": "tjomson",
       "email": "thomaskilbak@gmail.com",
-      "timestamp": 1646999023,
+      "timestamp": 1646999239,
       "timezone": "+0100"
     },
-    "message": "Hide Tooltip when switching chart type",
-    "description": "Fixes #267",
+    "message": "Handle duplicate arguments",
+    "description": "Fixes #247",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "0c81159c00eba469e2caf4235e1953c150a01963",
+      "hash": "0c184d2043a256f316265cfdc41d45071ca50af9",
       "children": [
         {
           "type": "tree",
@@ -892,7 +892,7 @@
           "type": "tree",
           "path": "git-visual/parser",
           "name": "parser",
-          "hash": "a43f7e7d43b44295232a4eb75966058b4618ed16",
+          "hash": "db65a35ef3f13b5e9a9f74e1fe7b595ae13d04dc",
           "children": [
             {
               "type": "blob",
@@ -995,7 +995,7 @@
               "type": "tree",
               "path": "git-visual/parser/src",
               "name": "src",
-              "hash": "a8f68b95b56487512c7e43d35eca291fa45228cf",
+              "hash": "766b9c13ba8fd8f5adb0fd7e83b13c4a94a1867a",
               "children": [
                 {
                   "type": "blob",
@@ -1101,21 +1101,21 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "2c701dc4ef5141fc8bc6db347fa2e0a44aec6c99",
+                  "hash": "3b6d7b5b6465aec2c1e8dbeaac06f2367d0079f6",
                   "path": "git-visual/parser/src/parse.ts",
                   "name": "parse.ts",
                   "authors": {
-                    "Thomas Hoffmann Kilbak": 159,
                     "Jonas Glerup Røssum": 142,
+                    "Thomas Hoffmann Kilbak": 159,
                     "Kristoffer Højelse": 21,
                     "tjomson": 19,
                     "emiljapelt": 40,
                     "joglr": 40,
                     "Jonas Røssum": 125
                   },
-                  "noLines": 249,
-                  "noCommits": 30,
-                  "lastChangeEpoch": 1646818775
+                  "noLines": 253,
+                  "noCommits": 31,
+                  "lastChangeEpoch": 1646992872
                 },
                 {
                   "type": "blob",
