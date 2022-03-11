@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "ca2c6d8cb9b8cd443139c2ade79135b1e1eae4f2",
-    "parent": "a46c6c299055d4e7d3d7812de1ff960727ee15d8",
+    "hash": "8943a6146d8ddad1f13f6567bb4988f3452d4cb7",
+    "parent": "f6f93916f234772fbb2ac63db91adbe5d411c8a8",
     "parent2": null,
     "author": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647004102,
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1647004641,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "GitHub",
-      "email": "noreply@github.com",
-      "timestamp": 1647004102,
+      "name": "tjomson",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1647004840,
       "timezone": "+0100"
     },
-    "message": "Update README.md (#319)",
+    "message": "Make binary files noLines 0",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "bded25125f4a34a12f78c7103a57d61550ea68be",
+      "hash": "31935e4e3615fc2905ac0d14a48bd01972756785",
       "children": [
         {
           "type": "tree",
@@ -50,6 +50,7 @@
                   },
                   "noLines": 33,
                   "noCommits": 7,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
@@ -63,6 +64,7 @@
                   },
                   "noLines": 32,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645455849
                 }
               ]
@@ -81,6 +83,7 @@
           },
           "noLines": 4,
           "noCommits": 5,
+          "isBinary": false,
           "lastChangeEpoch": 1646816386
         },
         {
@@ -100,6 +103,7 @@
               },
               "noLines": 4,
               "noCommits": 1,
+              "isBinary": false,
               "lastChangeEpoch": 1645471107
             }
           ]
@@ -115,6 +119,7 @@
           },
           "noLines": 3,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1644413113
         },
         {
@@ -127,6 +132,7 @@
           },
           "noLines": 1,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1645287843
         },
         {
@@ -146,6 +152,7 @@
               },
               "noLines": 7,
               "noCommits": 3,
+              "isBinary": false,
               "lastChangeEpoch": 1645908902
             },
             {
@@ -161,6 +168,7 @@
               },
               "noLines": 24,
               "noCommits": 3,
+              "isBinary": false,
               "lastChangeEpoch": 1645310109
             },
             {
@@ -174,6 +182,7 @@
               },
               "noLines": 5,
               "noCommits": 3,
+              "isBinary": false,
               "lastChangeEpoch": 1646821818
             }
           ]
@@ -188,6 +197,7 @@
           },
           "noLines": 21,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1646234074
         },
         {
@@ -202,13 +212,14 @@
           },
           "noLines": 128,
           "noCommits": 4,
+          "isBinary": false,
           "lastChangeEpoch": 1647004102
         },
         {
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "c12c8bf73e7ece244f4e9e54291531a0a9398aea",
+          "hash": "768bf6d9609e63926775050dc49d4e4ef91c1b68",
           "children": [
             {
               "type": "blob",
@@ -221,6 +232,7 @@
               },
               "noLines": 25,
               "noCommits": 2,
+              "isBinary": false,
               "lastChangeEpoch": 1646657235
             },
             {
@@ -234,6 +246,7 @@
               },
               "noLines": 46,
               "noCommits": 1,
+              "isBinary": false,
               "lastChangeEpoch": 1645471107
             },
             {
@@ -248,6 +261,7 @@
               },
               "noLines": 84,
               "noCommits": 16,
+              "isBinary": false,
               "lastChangeEpoch": 1646825053
             },
             {
@@ -261,7 +275,11 @@
                   "hash": "a11777cc471a4344702741ab1c8a588998b1311a",
                   "path": "git-visual/app/public/favicon.ico",
                   "name": "favicon.ico",
-                  "authors": {}
+                  "authors": {},
+                  "noLines": 0,
+                  "noCommits": 1,
+                  "isBinary": true,
+                  "lastChangeEpoch": 1645471107
                 },
                 {
                   "type": "blob",
@@ -275,6 +293,7 @@
                   },
                   "noLines": 44,
                   "noCommits": 3,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646051937
                 },
                 {
@@ -282,14 +301,22 @@
                   "hash": "fc44b0a3796c0e0a64c3d858ca038bd4570465d9",
                   "path": "git-visual/app/public/logo192.png",
                   "name": "logo192.png",
-                  "authors": {}
+                  "authors": {},
+                  "noLines": 0,
+                  "noCommits": 1,
+                  "isBinary": true,
+                  "lastChangeEpoch": 1645471107
                 },
                 {
                   "type": "blob",
                   "hash": "a4e47a6545bc15971f8f63fba70e4013df88a664",
                   "path": "git-visual/app/public/logo512.png",
                   "name": "logo512.png",
-                  "authors": {}
+                  "authors": {},
+                  "noLines": 0,
+                  "noCommits": 1,
+                  "isBinary": true,
+                  "lastChangeEpoch": 1645471107
                 },
                 {
                   "type": "blob",
@@ -302,6 +329,7 @@
                   },
                   "noLines": 25,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
@@ -315,6 +343,7 @@
                   },
                   "noLines": 3,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 }
               ]
@@ -323,7 +352,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "d3415a33e772fcd44675bd5abf84fc8e7193b659",
+              "hash": "e5a917672a2e08a65b78088f9ec0c021bbd710dd",
               "children": [
                 {
                   "type": "blob",
@@ -337,6 +366,7 @@
                   },
                   "noLines": 3,
                   "noCommits": 7,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645616691
                 },
                 {
@@ -352,6 +382,7 @@
                   },
                   "noLines": 18,
                   "noCommits": 12,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646061471
                 },
                 {
@@ -364,6 +395,7 @@
                   },
                   "noLines": 82,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1647000416
                 },
                 {
@@ -377,13 +409,14 @@
                   },
                   "noLines": 52,
                   "noCommits": 3,
+                  "isBinary": false,
                   "lastChangeEpoch": 1647002036
                 },
                 {
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "2c52c8f9839eeb6314f9a3e2be6cadfbccd2b279",
+                  "hash": "945613c8cfe0b975f3bd38df7e953b048d2fc096",
                   "children": [
                     {
                       "type": "blob",
@@ -396,6 +429,7 @@
                       },
                       "noLines": 26,
                       "noCommits": 5,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646662749
                     },
                     {
@@ -412,22 +446,24 @@
                       },
                       "noLines": 360,
                       "noCommits": 23,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646993774
                     },
                     {
                       "type": "blob",
-                      "hash": "3a39f168be0b784ca1262d30d77573b9094db3de",
+                      "hash": "ee04359d1eb2e4ef8fe29b9177195fe72905747e",
                       "path": "git-visual/app/src/components/Details.tsx",
                       "name": "Details.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 28,
+                        "Thomas Hoffmann Kilbak": 69,
                         "Jonas Glerup Røssum": 162,
                         "tjomson": 42,
                         "Kristoffer Højelse": 6
                       },
-                      "noLines": 112,
-                      "noCommits": 15,
-                      "lastChangeEpoch": 1646817418
+                      "noLines": 127,
+                      "noCommits": 17,
+                      "isBinary": false,
+                      "lastChangeEpoch": 1647003195
                     },
                     {
                       "type": "blob",
@@ -440,6 +476,7 @@
                       },
                       "noLines": 21,
                       "noCommits": 2,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646827048
                     },
                     {
@@ -452,6 +489,7 @@
                       },
                       "noLines": 31,
                       "noCommits": 4,
+                      "isBinary": false,
                       "lastChangeEpoch": 1645624257
                     },
                     {
@@ -465,6 +503,7 @@
                       },
                       "noLines": 17,
                       "noCommits": 3,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -479,6 +518,7 @@
                       },
                       "noLines": 60,
                       "noCommits": 21,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -493,6 +533,7 @@
                       },
                       "noLines": 29,
                       "noCommits": 8,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646644497
                     },
                     {
@@ -507,6 +548,7 @@
                       },
                       "noLines": 32,
                       "noCommits": 7,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646644497
                     },
                     {
@@ -520,6 +562,7 @@
                       },
                       "noLines": 16,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646051937
                     },
                     {
@@ -532,6 +575,7 @@
                       },
                       "noLines": 19,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1645798777
                     },
                     {
@@ -545,6 +589,7 @@
                       },
                       "noLines": 24,
                       "noCommits": 12,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646827048
                     },
                     {
@@ -559,6 +604,7 @@
                       },
                       "noLines": 128,
                       "noCommits": 6,
+                      "isBinary": false,
                       "lastChangeEpoch": 1647000416
                     },
                     {
@@ -573,6 +619,7 @@
                       },
                       "noLines": 44,
                       "noCommits": 6,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -588,6 +635,7 @@
                       },
                       "noLines": 25,
                       "noCommits": 8,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646660059
                     },
                     {
@@ -601,20 +649,22 @@
                       },
                       "noLines": 62,
                       "noCommits": 4,
+                      "isBinary": false,
                       "lastChangeEpoch": 1645560239
                     },
                     {
                       "type": "blob",
-                      "hash": "94c1a97b1cb4e23c17071663eaaae8d2025068cd",
+                      "hash": "6c22f9ccb5d5982ace45fa673df178052b1a396e",
                       "path": "git-visual/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 75,
+                        "Thomas Hoffmann Kilbak": 81,
                         "Jonas Glerup Røssum": 133
                       },
-                      "noLines": 105,
-                      "noCommits": 13,
-                      "lastChangeEpoch": 1646817418
+                      "noLines": 109,
+                      "noCommits": 14,
+                      "isBinary": false,
+                      "lastChangeEpoch": 1647003573
                     },
                     {
                       "type": "blob",
@@ -629,6 +679,7 @@
                       },
                       "noLines": 133,
                       "noCommits": 16,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646668066
                     }
                   ]
@@ -646,6 +697,7 @@
                   },
                   "noLines": 5,
                   "noCommits": 8,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646998488
                 },
                 {
@@ -664,6 +716,7 @@
                       },
                       "noLines": 12,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -676,6 +729,7 @@
                       },
                       "noLines": 14,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -688,6 +742,7 @@
                       },
                       "noLines": 46,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
@@ -700,6 +755,7 @@
                       },
                       "noLines": 16,
                       "noCommits": 1,
+                      "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     }
                   ]
@@ -714,6 +770,7 @@
                   },
                   "noLines": 34,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646759315
                 },
                 {
@@ -726,6 +783,7 @@
                   },
                   "noLines": 13,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645798777
                 },
                 {
@@ -741,6 +799,7 @@
                   },
                   "noLines": 35,
                   "noCommits": 7,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646819685
                 },
                 {
@@ -754,6 +813,7 @@
                   },
                   "noLines": 22,
                   "noCommits": 5,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646662285
                 },
                 {
@@ -766,6 +826,7 @@
                   },
                   "noLines": 3,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646759315
                 },
                 {
@@ -781,6 +842,7 @@
                   },
                   "noLines": 319,
                   "noCommits": 19,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646821032
                 },
                 {
@@ -794,6 +856,7 @@
                   },
                   "noLines": 1,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
@@ -807,6 +870,7 @@
                   },
                   "noLines": 15,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
@@ -820,6 +884,7 @@
                   },
                   "noLines": 5,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
@@ -833,6 +898,7 @@
                   },
                   "noLines": 26,
                   "noCommits": 9,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646824293
                 },
                 {
@@ -847,6 +913,7 @@
                   },
                   "noLines": 17,
                   "noCommits": 8,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646819685
                 }
               ]
@@ -862,6 +929,7 @@
               },
               "noLines": 28,
               "noCommits": 3,
+              "isBinary": false,
               "lastChangeEpoch": 1646662285
             }
           ]
@@ -876,6 +944,7 @@
           },
           "noLines": 8,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1646657235
         },
         {
@@ -888,6 +957,7 @@
           },
           "noLines": 20,
           "noCommits": 2,
+          "isBinary": false,
           "lastChangeEpoch": 1646816386
         },
         {
@@ -900,13 +970,14 @@
           },
           "noLines": 26,
           "noCommits": 2,
+          "isBinary": false,
           "lastChangeEpoch": 1646816386
         },
         {
           "type": "tree",
           "path": "git-visual/parser",
           "name": "parser",
-          "hash": "e53f56ebca7c5c4a8fe54c09ba0e7febee2c0e16",
+          "hash": "d9ccddde3de619647f9ad51f70a426b9c1676b71",
           "children": [
             {
               "type": "blob",
@@ -919,6 +990,7 @@
               },
               "noLines": 3,
               "noCommits": 1,
+              "isBinary": false,
               "lastChangeEpoch": 1645471107
             },
             {
@@ -932,6 +1004,7 @@
               },
               "noLines": 18,
               "noCommits": 3,
+              "isBinary": false,
               "lastChangeEpoch": 1645471107
             },
             {
@@ -946,6 +1019,7 @@
               },
               "noLines": 5,
               "noCommits": 2,
+              "isBinary": false,
               "lastChangeEpoch": 1645455849
             },
             {
@@ -959,6 +1033,7 @@
               },
               "noLines": 3,
               "noCommits": 1,
+              "isBinary": false,
               "lastChangeEpoch": 1645471107
             },
             {
@@ -974,6 +1049,7 @@
               },
               "noLines": 3,
               "noCommits": 12,
+              "isBinary": false,
               "lastChangeEpoch": 1646816386
             },
             {
@@ -987,6 +1063,7 @@
               },
               "noLines": 7,
               "noCommits": 1,
+              "isBinary": false,
               "lastChangeEpoch": 1645455849
             },
             {
@@ -1003,13 +1080,14 @@
               },
               "noLines": 59,
               "noCommits": 12,
+              "isBinary": false,
               "lastChangeEpoch": 1646816386
             },
             {
               "type": "tree",
               "path": "git-visual/parser/src",
               "name": "src",
-              "hash": "fd9ba1a97d94d46f479a7ac298f8c5edfb6ce637",
+              "hash": "026b45c3772444f4489af6facdf96634d6f17222",
               "children": [
                 {
                   "type": "blob",
@@ -1021,6 +1099,7 @@
                   },
                   "noLines": 20,
                   "noCommits": 4,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646048042
                 },
                 {
@@ -1034,24 +1113,26 @@
                   },
                   "noLines": 1,
                   "noCommits": 2,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646388674
                 },
                 {
                   "type": "blob",
-                  "hash": "b7398b57a901fe7416f6613994ec5178f392c8a6",
+                  "hash": "654b4bb35e20c0f4e7aa390b318c2d30d345a054",
                   "path": "git-visual/parser/src/hydrate.ts",
                   "name": "hydrate.ts",
                   "authors": {
-                    "Thomas Hoffmann Kilbak": 42,
-                    "Kristoffer Højelse": 191,
+                    "Jonas Glerup Røssum": 81,
+                    "Thomas Hoffmann Kilbak": 44,
+                    "Kristoffer Højelse": 195,
                     "tjomson": 9,
-                    "Jonas Glerup Røssum": 79,
-                    "emiljapelt": 191,
-                    "joglr": 191
+                    "emiljapelt": 195,
+                    "joglr": 195
                   },
-                  "noLines": 191,
-                  "noCommits": 11,
-                  "lastChangeEpoch": 1646933320
+                  "noLines": 195,
+                  "noCommits": 13,
+                  "isBinary": false,
+                  "lastChangeEpoch": 1647004641
                 },
                 {
                   "type": "blob",
@@ -1069,6 +1150,7 @@
                   },
                   "noLines": 5,
                   "noCommits": 27,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645455849
                 },
                 {
@@ -1081,25 +1163,27 @@
                   },
                   "noLines": 102,
                   "noCommits": 3,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646816386
                 },
                 {
                   "type": "blob",
-                  "hash": "fc24c9e7cdc1fa45c0ecc15af27bc7549e82d9fc",
+                  "hash": "27c95f2cdd90b04c2df24d01bb64a00a20f9dfd5",
                   "path": "git-visual/parser/src/model.ts",
                   "name": "model.ts",
                   "authors": {
+                    "Thomas Hoffmann Kilbak": 28,
                     "Jonas Glerup Røssum": 26,
-                    "Thomas Hoffmann Kilbak": 27,
                     "Kristoffer Højelse": 14,
                     "tjomson": 36,
                     "emiljapelt": 47,
-                    "joglr": 76,
+                    "joglr": 77,
                     "Jonas Røssum": 20
                   },
-                  "noLines": 76,
-                  "noCommits": 25,
-                  "lastChangeEpoch": 1647000416
+                  "noLines": 77,
+                  "noCommits": 26,
+                  "isBinary": false,
+                  "lastChangeEpoch": 1646997350
                 },
                 {
                   "type": "blob",
@@ -1111,6 +1195,7 @@
                   },
                   "noLines": 32,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646047678
                 },
                 {
@@ -1119,8 +1204,8 @@
                   "path": "git-visual/parser/src/parse.ts",
                   "name": "parse.ts",
                   "authors": {
-                    "Jonas Glerup Røssum": 279,
-                    "Thomas Hoffmann Kilbak": 296,
+                    "Jonas Glerup Røssum": 142,
+                    "Thomas Hoffmann Kilbak": 159,
                     "Kristoffer Højelse": 21,
                     "tjomson": 19,
                     "emiljapelt": 40,
@@ -1129,6 +1214,7 @@
                   },
                   "noLines": 253,
                   "noCommits": 31,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646992872
                 },
                 {
@@ -1141,6 +1227,7 @@
                   },
                   "noLines": 86,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646388674
                 },
                 {
@@ -1154,6 +1241,7 @@
                   },
                   "noLines": 8,
                   "noCommits": 1,
+                  "isBinary": false,
                   "lastChangeEpoch": 1645455849
                 },
                 {
@@ -1162,8 +1250,8 @@
                   "path": "git-visual/parser/src/util.ts",
                   "name": "util.ts",
                   "authors": {
-                    "Thomas Hoffmann Kilbak": 101,
-                    "Jonas Glerup Røssum": 335,
+                    "Thomas Hoffmann Kilbak": 20,
+                    "Jonas Glerup Røssum": 254,
                     "tjomson": 13,
                     "joglr": 9,
                     "Kristoffer Højelse": 52,
@@ -1172,6 +1260,7 @@
                   },
                   "noLines": 170,
                   "noCommits": 31,
+                  "isBinary": false,
                   "lastChangeEpoch": 1646933320
                 }
               ]
@@ -1188,6 +1277,7 @@
               },
               "noLines": 21,
               "noCommits": 4,
+              "isBinary": false,
               "lastChangeEpoch": 1645455849
             }
           ]
@@ -1202,6 +1292,7 @@
           },
           "noLines": 43,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1643810439
         },
         {
@@ -1214,6 +1305,7 @@
           },
           "noLines": 37,
           "noCommits": 2,
+          "isBinary": false,
           "lastChangeEpoch": 1646816386
         },
         {
@@ -1226,6 +1318,7 @@
           },
           "noLines": 8,
           "noCommits": 1,
+          "isBinary": false,
           "lastChangeEpoch": 1646818775
         }
       ]
@@ -1233,7 +1326,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 31,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647004102
+    "newestLatestChangeEpoch": 1647004641
   },
   "authorUnions": [
     [
