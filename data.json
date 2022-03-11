@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "a46c6c299055d4e7d3d7812de1ff960727ee15d8",
-    "parent": "d07ce8617cb1e72341da8dbe5f53a4de069a8a6d",
+    "hash": "ca2c6d8cb9b8cd443139c2ade79135b1e1eae4f2",
+    "parent": "a46c6c299055d4e7d3d7812de1ff960727ee15d8",
     "parent2": null,
     "author": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1647002036,
+      "name": "tjomson",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1647004102,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647002404,
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "timestamp": 1647004102,
       "timezone": "+0100"
     },
-    "message": "Refactor makeDupeMap",
+    "message": "Update README.md (#319)",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "a3a6f13a659537b8ffbabcb158aabeb717e39398",
+      "hash": "bded25125f4a34a12f78c7103a57d61550ea68be",
       "children": [
         {
           "type": "tree",
@@ -192,16 +192,17 @@
         },
         {
           "type": "blob",
-          "hash": "f5243d7f757f2f0269e15aa262f16b3f7e881046",
+          "hash": "0c7ba16df8d04152c87902971bf99434e29e35ef",
           "path": "git-visual/README.md",
           "name": "README.md",
           "authors": {
+            "tjomson": 19,
             "Jonas Glerup Røssum": 123,
             "Kristoffer Højelse": 2
           },
-          "noLines": 111,
-          "noCommits": 3,
-          "lastChangeEpoch": 1646816386
+          "noLines": 128,
+          "noCommits": 4,
+          "lastChangeEpoch": 1647004102
         },
         {
           "type": "tree",
@@ -1118,8 +1119,8 @@
                   "path": "git-visual/parser/src/parse.ts",
                   "name": "parse.ts",
                   "authors": {
-                    "Jonas Glerup Røssum": 142,
-                    "Thomas Hoffmann Kilbak": 159,
+                    "Jonas Glerup Røssum": 279,
+                    "Thomas Hoffmann Kilbak": 296,
                     "Kristoffer Højelse": 21,
                     "tjomson": 19,
                     "emiljapelt": 40,
@@ -1161,8 +1162,8 @@
                   "path": "git-visual/parser/src/util.ts",
                   "name": "util.ts",
                   "authors": {
-                    "Thomas Hoffmann Kilbak": 20,
-                    "Jonas Glerup Røssum": 254,
+                    "Thomas Hoffmann Kilbak": 101,
+                    "Jonas Glerup Røssum": 335,
                     "tjomson": 13,
                     "joglr": 9,
                     "Kristoffer Højelse": 52,
@@ -1232,7 +1233,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 31,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647002036
+    "newestLatestChangeEpoch": 1647004102
   },
   "authorUnions": [
     [
