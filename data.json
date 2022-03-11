@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "c2d797662f113f65f2323e12dc0bcb83289c54b6",
-    "parent": "3e9644e3628177d25f078c636f1c5c8c042e962f",
+    "hash": "527501cfc90491a82d7c97512e3b5f14e7792a0e",
+    "parent": "a76da31b90c6a5c35a5641cb5d1e80c301b50a1b",
     "parent2": null,
     "author": {
-      "name": "emiljapelt",
-      "email": "55390848+emiljapelt@users.noreply.github.com",
-      "timestamp": 1646989049,
+      "name": "Thomas Hoffmann Kilbak",
+      "email": "thki@queue-it.com",
+      "timestamp": 1646998488,
       "timezone": "+0100"
     },
     "committer": {
       "name": "emiljapelt",
       "email": "55390848+emiljapelt@users.noreply.github.com",
-      "timestamp": 1646990302,
+      "timestamp": 1646998873,
       "timezone": "+0100"
     },
-    "message": "Stop using a const for rect text posistion",
+    "message": "Move magic number to constant",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-visual",
       "name": "git-visual",
-      "hash": "110ebe6beb77b9e38ea7744dac3406663497bf90",
+      "hash": "607c96d5d7e88cc04ce404abac8f514a66eded29",
       "children": [
         {
           "type": "tree",
@@ -207,7 +207,7 @@
           "type": "tree",
           "path": "git-visual/app",
           "name": "app",
-          "hash": "c3539964603f6c823c67124e9292208cf7d84865",
+          "hash": "1b108860c191fcd1775e66dfa0a534de45e2e609",
           "children": [
             {
               "type": "blob",
@@ -322,7 +322,7 @@
               "type": "tree",
               "path": "git-visual/app/src",
               "name": "src",
-              "hash": "6d979369daf274324ae66d1db9867b3b3d640aa6",
+              "hash": "ad59323409032afd79a8574313daf463bc1abfc5",
               "children": [
                 {
                   "type": "blob",
@@ -369,7 +369,7 @@
                   "type": "tree",
                   "path": "git-visual/app/src/components",
                   "name": "components",
-                  "hash": "6420363c0507f427244ca3f4e82f38eda0841b72",
+                  "hash": "03809ecca3a0a89067703d50dc7c070e4a0b2a9d",
                   "children": [
                     {
                       "type": "blob",
@@ -386,19 +386,19 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "a2f6a664cebb51ced6e215727e94eed31bad8fa7",
+                      "hash": "04071450160200884de1ea13f4ae475186c3a556",
                       "path": "git-visual/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
+                        "Thomas Hoffmann Kilbak": 24,
                         "emiljapelt": 349,
-                        "Thomas Hoffmann Kilbak": 15,
                         "Kristoffer Højelse": 22,
-                        "Jonas Glerup Røssum": 349,
+                        "Jonas Glerup Røssum": 359,
                         "tjomson": 47
                       },
-                      "noLines": 349,
-                      "noCommits": 20,
-                      "lastChangeEpoch": 1646989049
+                      "noLines": 359,
+                      "noCommits": 22,
+                      "lastChangeEpoch": 1646998488
                     },
                     {
                       "type": "blob",
@@ -621,18 +621,18 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "11c74b07ac90447a8cbd2a9ff048e3148c75015b",
+                  "hash": "00a89d5564842b158ca32f3add6ff8b70a0a3244",
                   "path": "git-visual/app/src/const.ts",
                   "name": "const.ts",
                   "authors": {
+                    "Thomas Hoffmann Kilbak": 14,
                     "emiljapelt": 3,
                     "Kristoffer Højelse": 4,
-                    "Thomas Hoffmann Kilbak": 14,
                     "Jonas Glerup Røssum": 14
                   },
-                  "noLines": 4,
-                  "noCommits": 7,
-                  "lastChangeEpoch": 1646989049
+                  "noLines": 5,
+                  "noCommits": 8,
+                  "lastChangeEpoch": 1646998488
                 },
                 {
                   "type": "tree",
@@ -1219,7 +1219,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 31,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1646989049
+    "newestLatestChangeEpoch": 1646998488
   },
   "authorUnions": [
     [
