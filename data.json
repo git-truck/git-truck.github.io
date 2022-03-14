@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "d52f02569095a282e4bf7c3c02d187747ec6ca0f",
-    "parent": "c7a3b4604a518310728418aec53f37747e874819",
+    "hash": "ff3d2add470302e7eb1117e0fc9ceb97075c450a",
+    "parent": "d52f02569095a282e4bf7c3c02d187747ec6ca0f",
     "parent2": null,
     "author": {
-      "name": "Thomas Hoffmann Kilbak",
-      "email": "thki@queue-it.com",
-      "timestamp": 1647251573,
+      "name": "Kristoffer Højelse",
+      "email": "34659757+hojelse@users.noreply.github.com",
+      "timestamp": 1647245541,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "tjomson",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647253611,
+      "name": "Jonas Glerup Røssum",
+      "email": "1959615+joglr@users.noreply.github.com",
+      "timestamp": 1647256164,
       "timezone": "+0100"
     },
-    "message": "Remove unused var",
+    "message": "Set exec privileges on .sh",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-truck",
       "name": "git-truck",
-      "hash": "ae210e63de1974d8a76e2716ddc83279cf2d7b6b",
+      "hash": "8d2f4f87869ba2baa891f4ef83b51503e629c716",
       "children": [
         {
           "type": "tree",
@@ -955,9 +955,9 @@
             "Jonas Glerup Røssum": 8
           },
           "noLines": 8,
-          "noCommits": 1,
+          "noCommits": 2,
           "isBinary": false,
-          "lastChangeEpoch": 1646657235
+          "lastChangeEpoch": 1647245541
         },
         {
           "type": "blob",
@@ -968,9 +968,9 @@
             "Jonas Glerup Røssum": 24
           },
           "noLines": 20,
-          "noCommits": 2,
+          "noCommits": 3,
           "isBinary": false,
-          "lastChangeEpoch": 1646816386
+          "lastChangeEpoch": 1647245541
         },
         {
           "type": "blob",
@@ -981,9 +981,9 @@
             "Jonas Glerup Røssum": 34
           },
           "noLines": 26,
-          "noCommits": 2,
+          "noCommits": 3,
           "isBinary": false,
-          "lastChangeEpoch": 1646816386
+          "lastChangeEpoch": 1647245541
         },
         {
           "type": "tree",
@@ -1317,9 +1317,9 @@
             "Jonas Glerup Røssum": 43
           },
           "noLines": 37,
-          "noCommits": 2,
+          "noCommits": 3,
           "isBinary": false,
-          "lastChangeEpoch": 1646816386
+          "lastChangeEpoch": 1647245541
         },
         {
           "type": "blob",
