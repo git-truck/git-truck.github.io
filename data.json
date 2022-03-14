@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "62f3ee1df25ecb2945fce3052be74d380887497f",
-    "parent": "5b2afe7a7900056574cc48650f2f8087ef285dcc",
+    "hash": "d52f02569095a282e4bf7c3c02d187747ec6ca0f",
+    "parent": "c7a3b4604a518310728418aec53f37747e874819",
     "parent2": null,
     "author": {
       "name": "Thomas Hoffmann Kilbak",
-      "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647172400,
+      "email": "thki@queue-it.com",
+      "timestamp": 1647251573,
       "timezone": "+0100"
     },
     "committer": {
       "name": "tjomson",
       "email": "thomaskilbak@gmail.com",
-      "timestamp": 1647246954,
+      "timestamp": 1647253611,
       "timezone": "+0100"
     },
-    "message": "Fix authors with 0 contrib",
+    "message": "Remove unused var",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-truck",
       "name": "git-truck",
-      "hash": "21c54f37fc92613b0ddb62490edaced2f1f72423",
+      "hash": "ae210e63de1974d8a76e2716ddc83279cf2d7b6b",
       "children": [
         {
           "type": "tree",
@@ -219,7 +219,7 @@
           "type": "tree",
           "path": "git-truck/app",
           "name": "app",
-          "hash": "c006093142f88d8c34e469a6a061ee02552a6d5d",
+          "hash": "be798a20343d7c9c14322e9ae4fa4c43ad80bb42",
           "children": [
             {
               "type": "blob",
@@ -352,7 +352,7 @@
               "type": "tree",
               "path": "git-truck/app/src",
               "name": "src",
-              "hash": "a5905f65d97934f165753fec6679b09497ac76f1",
+              "hash": "617cb8568275976f64dd54ff72dda119c8995508",
               "children": [
                 {
                   "type": "blob",
@@ -422,7 +422,7 @@
                   "type": "tree",
                   "path": "git-truck/app/src/components",
                   "name": "components",
-                  "hash": "0b4bacbaf739ceaea2b49c45feae3abeb6f74ca7",
+                  "hash": "53487ebfeba3e5cb4605d9649db94b97ddf00070",
                   "children": [
                     {
                       "type": "blob",
@@ -661,17 +661,17 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "6c22f9ccb5d5982ace45fa673df178052b1a396e",
+                      "hash": "6231ea1f4c914eb8c58a05719cd013e40d7ca851",
                       "path": "git-truck/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 81,
+                        "Thomas Hoffmann Kilbak": 93,
                         "Jonas Glerup Røssum": 133
                       },
                       "noLines": 109,
-                      "noCommits": 14,
+                      "noCommits": 16,
                       "isBinary": false,
-                      "lastChangeEpoch": 1647003573
+                      "lastChangeEpoch": 1647250896
                     },
                     {
                       "type": "blob",
@@ -843,19 +843,19 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "59a2ee56f4f387f66c6e1ba910992081b953851a",
+                  "hash": "968051bc15ab493b997e350c624f385d2459e4f0",
                   "path": "git-truck/app/src/metrics.ts",
                   "name": "metrics.ts",
                   "authors": {
-                    "Kristoffer Højelse": 38,
                     "Thomas Hoffmann Kilbak": 38,
+                    "Kristoffer Højelse": 38,
                     "Jonas Glerup Røssum": 38,
                     "emiljapelt": 411
                   },
                   "noLines": 319,
-                  "noCommits": 19,
+                  "noCommits": 20,
                   "isBinary": false,
-                  "lastChangeEpoch": 1646821032
+                  "lastChangeEpoch": 1647249446
                 },
                 {
                   "type": "blob",
@@ -901,17 +901,17 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "8c83f551725e7575a0bbf44a79416fcc46c106f8",
+                  "hash": "d19951e3191786b933c6c30b137222ed4cfd85d7",
                   "path": "git-truck/app/src/util.ts",
                   "name": "util.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 55,
                     "Jonas Glerup Røssum": 41
                   },
-                  "noLines": 26,
-                  "noCommits": 10,
+                  "noLines": 33,
+                  "noCommits": 12,
                   "isBinary": false,
-                  "lastChangeEpoch": 1646824293
+                  "lastChangeEpoch": 1647251573
                 },
                 {
                   "type": "blob",
@@ -989,7 +989,7 @@
           "type": "tree",
           "path": "git-truck/parser",
           "name": "parser",
-          "hash": "4de69db2424f924dc430b3f5ce9b1b778f4d030b",
+          "hash": "1fae1880f6364c42893c5941480dec2cb7ac4813",
           "children": [
             {
               "type": "blob",
@@ -1099,7 +1099,7 @@
               "type": "tree",
               "path": "git-truck/parser/src",
               "name": "src",
-              "hash": "7880061ef25479c01905a5afaaa46147484c29b1",
+              "hash": "aea1ff1209d4850268a205875fc7e9faf97dbd9d",
               "children": [
                 {
                   "type": "blob",
@@ -1259,7 +1259,7 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "38c0914998ee249fbdb968224fe872051c2ef4b6",
+                  "hash": "8b325d8bfb3a2e122d34cd9013f33b7f6f3f90e7",
                   "path": "git-truck/parser/src/util.ts",
                   "name": "util.ts",
                   "authors": {
@@ -1272,9 +1272,9 @@
                     "Jonas Røssum": 107
                   },
                   "noLines": 215,
-                  "noCommits": 33,
+                  "noCommits": 34,
                   "isBinary": false,
-                  "lastChangeEpoch": 1647172400
+                  "lastChangeEpoch": 1647247427
                 }
               ]
             },
@@ -1339,7 +1339,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 44,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647172400
+    "newestLatestChangeEpoch": 1647251573
   },
   "authorUnions": [
     [
