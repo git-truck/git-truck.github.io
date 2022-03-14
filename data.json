@@ -1,62 +1,62 @@
 {
-  "repo": "git-visual",
+  "repo": "git-truck",
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "efa7aa92fee54870b1f321ab35d54ea1f6d42f0c",
-    "parent": "6b8524841c5097a222d8db46511e4496796fde6b",
+    "hash": "62f3ee1df25ecb2945fce3052be74d380887497f",
+    "parent": "5b2afe7a7900056574cc48650f2f8087ef285dcc",
     "parent2": null,
     "author": {
-      "name": "Kristoffer Højelse",
-      "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1647006635,
+      "name": "Thomas Hoffmann Kilbak",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1647172400,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Kristoffer Højelse",
-      "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1647007161,
+      "name": "tjomson",
+      "email": "thomaskilbak@gmail.com",
+      "timestamp": 1647246954,
       "timezone": "+0100"
     },
-    "message": "Update layout for linecount=0",
+    "message": "Fix authors with 0 contrib",
     "description": "",
     "coauthors": [],
     "tree": {
       "type": "tree",
-      "path": "git-visual",
-      "name": "git-visual",
-      "hash": "3c9676235019d59b3e84cf0f9cfcb33f455e6c7e",
+      "path": "git-truck",
+      "name": "git-truck",
+      "hash": "21c54f37fc92613b0ddb62490edaced2f1f72423",
       "children": [
         {
           "type": "tree",
-          "path": "git-visual/.github",
+          "path": "git-truck/.github",
           "name": ".github",
           "hash": "39948105422762746ab36c1e7cc8ef199216c355",
           "children": [
             {
               "type": "tree",
-              "path": "git-visual/.github/workflows",
+              "path": "git-truck/.github/workflows",
               "name": "workflows",
               "hash": "5408c0837f38c202f4770ea4e140e9ac00419828",
               "children": [
                 {
                   "type": "blob",
                   "hash": "3d2994e3f9f461625833968e43d5f1e9d0a52bb7",
-                  "path": "git-visual/.github/workflows/build-and-deploy.yml",
+                  "path": "git-truck/.github/workflows/build-and-deploy.yml",
                   "name": "build-and-deploy.yml",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 10,
-                    "Jonas Glerup Røssum": 33
+                    "Jonas Glerup Røssum": 85
                   },
                   "noLines": 33,
-                  "noCommits": 7,
+                  "noCommits": 8,
                   "isBinary": false,
                   "lastChangeEpoch": 1645471107
                 },
                 {
                   "type": "blob",
                   "hash": "5d8014b5bfa120b2ddc435a9da7d1562a5c7026b",
-                  "path": "git-visual/.github/workflows/test-parser.yml",
+                  "path": "git-truck/.github/workflows/test-parser.yml",
                   "name": "test-parser.yml",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 32,
@@ -74,28 +74,28 @@
         {
           "type": "blob",
           "hash": "c2e4d2a6b17ba104e373853d64130ed34640fbd3",
-          "path": "git-visual/.gitignore",
+          "path": "git-truck/.gitignore",
           "name": ".gitignore",
           "authors": {
-            "Jonas Glerup Røssum": 4,
-            "Thomas Hoffmann Kilbak": 5,
+            "Jonas Glerup Røssum": 2,
+            "Thomas Hoffmann Kilbak": 2,
             "Jonas Røssum": 2
           },
           "noLines": 4,
-          "noCommits": 5,
+          "noCommits": 3,
           "isBinary": false,
           "lastChangeEpoch": 1646816386
         },
         {
           "type": "tree",
-          "path": "git-visual/.husky",
+          "path": "git-truck/.husky",
           "name": ".husky",
           "hash": "90a5843f1fb528b562a2ed5a5a6379f2c8e78bb8",
           "children": [
             {
               "type": "blob",
               "hash": "26b931f385fe2a148738e9f9cb668103165b29b4",
-              "path": "git-visual/.husky/pre-commit",
+              "path": "git-truck/.husky/pre-commit",
               "name": "pre-commit",
               "authors": {
                 "Thomas Hoffmann Kilbak": 4,
@@ -111,7 +111,7 @@
         {
           "type": "blob",
           "hash": "cce9d3c0801773cf33a36f6e57afe78a06eebb89",
-          "path": "git-visual/.prettierrc",
+          "path": "git-truck/.prettierrc",
           "name": ".prettierrc",
           "authors": {
             "Kristoffer Højelse": 3,
@@ -125,7 +125,7 @@
         {
           "type": "blob",
           "hash": "483a9c42c3c288cca80f49be1a584f507977fc4c",
-          "path": "git-visual/.truckignore",
+          "path": "git-truck/.truckignore",
           "name": ".truckignore",
           "authors": {
             "Thomas Hoffmann Kilbak": 1
@@ -137,14 +137,14 @@
         },
         {
           "type": "tree",
-          "path": "git-visual/.vscode",
+          "path": "git-truck/.vscode",
           "name": ".vscode",
           "hash": "8c8262fcb8cbf3ab7094d537f912d88bf9efc8b5",
           "children": [
             {
               "type": "blob",
               "hash": "f382f78907542d555d280bd1a3c9dc1557ee29f2",
-              "path": "git-visual/.vscode/extensions.json",
+              "path": "git-truck/.vscode/extensions.json",
               "name": "extensions.json",
               "authors": {
                 "Jonas Glerup Røssum": 9,
@@ -158,7 +158,7 @@
             {
               "type": "blob",
               "hash": "fd23abad1b76b7c985cad2e21d0ba0d7fd6b7e45",
-              "path": "git-visual/.vscode/launch.json",
+              "path": "git-truck/.vscode/launch.json",
               "name": "launch.json",
               "authors": {
                 "Jonas Glerup Røssum": 5,
@@ -174,7 +174,7 @@
             {
               "type": "blob",
               "hash": "dcc3ef7521c52c7841b5389a26f51e8b129aee84",
-              "path": "git-visual/.vscode/settings.json",
+              "path": "git-truck/.vscode/settings.json",
               "name": "settings.json",
               "authors": {
                 "Jonas Glerup Røssum": 9,
@@ -190,7 +190,7 @@
         {
           "type": "blob",
           "hash": "618465b14ebc1154476bd384edb71ee21abc5a10",
-          "path": "git-visual/LICENSE",
+          "path": "git-truck/LICENSE",
           "name": "LICENSE",
           "authors": {
             "Kristoffer Højelse": 21
@@ -203,7 +203,7 @@
         {
           "type": "blob",
           "hash": "0c7ba16df8d04152c87902971bf99434e29e35ef",
-          "path": "git-visual/README.md",
+          "path": "git-truck/README.md",
           "name": "README.md",
           "authors": {
             "tjomson": 19,
@@ -217,14 +217,14 @@
         },
         {
           "type": "tree",
-          "path": "git-visual/app",
+          "path": "git-truck/app",
           "name": "app",
-          "hash": "669af90ae7b75a993c569de3f3b68772a4c7fa3c",
+          "hash": "c006093142f88d8c34e469a6a061ee02552a6d5d",
           "children": [
             {
               "type": "blob",
               "hash": "9611753f8f857142204ac7c1b8941d65b00cd46f",
-              "path": "git-visual/app/.gitignore",
+              "path": "git-truck/app/.gitignore",
               "name": ".gitignore",
               "authors": {
                 "Jonas Glerup Røssum": 25,
@@ -238,7 +238,7 @@
             {
               "type": "blob",
               "hash": "b87cb00449efa5b6131f56b7e45cc63eddf37373",
-              "path": "git-visual/app/README.md",
+              "path": "git-truck/app/README.md",
               "name": "README.md",
               "authors": {
                 "Thomas Hoffmann Kilbak": 46,
@@ -252,7 +252,7 @@
             {
               "type": "blob",
               "hash": "27aba77568ab926834d22f18815910d84ce919d3",
-              "path": "git-visual/app/package.json",
+              "path": "git-truck/app/package.json",
               "name": "package.json",
               "authors": {
                 "Thomas Hoffmann Kilbak": 78,
@@ -266,14 +266,14 @@
             },
             {
               "type": "tree",
-              "path": "git-visual/app/public",
+              "path": "git-truck/app/public",
               "name": "public",
               "hash": "d53476bd300d850d271eb317cbde50ae79091562",
               "children": [
                 {
                   "type": "blob",
                   "hash": "a11777cc471a4344702741ab1c8a588998b1311a",
-                  "path": "git-visual/app/public/favicon.ico",
+                  "path": "git-truck/app/public/favicon.ico",
                   "name": "favicon.ico",
                   "authors": {},
                   "noLines": 0,
@@ -284,7 +284,7 @@
                 {
                   "type": "blob",
                   "hash": "ed29a9353a7e2b433775a4242337baa5c44df8ea",
-                  "path": "git-visual/app/public/index.html",
+                  "path": "git-truck/app/public/index.html",
                   "name": "index.html",
                   "authors": {
                     "Jonas Glerup Røssum": 46,
@@ -299,7 +299,7 @@
                 {
                   "type": "blob",
                   "hash": "fc44b0a3796c0e0a64c3d858ca038bd4570465d9",
-                  "path": "git-visual/app/public/logo192.png",
+                  "path": "git-truck/app/public/logo192.png",
                   "name": "logo192.png",
                   "authors": {},
                   "noLines": 0,
@@ -310,7 +310,7 @@
                 {
                   "type": "blob",
                   "hash": "a4e47a6545bc15971f8f63fba70e4013df88a664",
-                  "path": "git-visual/app/public/logo512.png",
+                  "path": "git-truck/app/public/logo512.png",
                   "name": "logo512.png",
                   "authors": {},
                   "noLines": 0,
@@ -321,7 +321,7 @@
                 {
                   "type": "blob",
                   "hash": "080d6c77ac21bb2ef88a6992b2b73ad93daaca92",
-                  "path": "git-visual/app/public/manifest.json",
+                  "path": "git-truck/app/public/manifest.json",
                   "name": "manifest.json",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 25,
@@ -335,7 +335,7 @@
                 {
                   "type": "blob",
                   "hash": "e9e57dc4d41b9b46e05112e9f45b7ea6ac0ba15e",
-                  "path": "git-visual/app/public/robots.txt",
+                  "path": "git-truck/app/public/robots.txt",
                   "name": "robots.txt",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 3,
@@ -350,45 +350,51 @@
             },
             {
               "type": "tree",
-              "path": "git-visual/app/src",
+              "path": "git-truck/app/src",
               "name": "src",
-              "hash": "4f91c163af19a1b8482e5fc7a3725ad7c39ffbce",
+              "hash": "a5905f65d97934f165753fec6679b09497ac76f1",
               "children": [
                 {
                   "type": "blob",
                   "hash": "4867abeb9b7c6d0edeef3de3b831f748ab27ebe7",
-                  "path": "git-visual/app/src/App.css",
+                  "path": "git-truck/app/src/App.css",
                   "name": "App.css",
                   "authors": {
-                    "Jonas Glerup Røssum": 3,
-                    "emiljapelt": 22,
-                    "Thomas Hoffmann Kilbak": 3
+                    "Jonas Glerup Røssum": 53,
+                    "emiljapelt": 33,
+                    "Thomas Hoffmann Kilbak": 130,
+                    "tjomson": 6,
+                    "joglr": 57,
+                    "Kristoffer Højelse": 57
                   },
                   "noLines": 3,
-                  "noCommits": 7,
+                  "noCommits": 13,
                   "isBinary": false,
                   "lastChangeEpoch": 1645616691
                 },
                 {
                   "type": "blob",
                   "hash": "825688cb8cd0c7f004378cfad4a6e42b87353829",
-                  "path": "git-visual/app/src/App.tsx",
+                  "path": "git-truck/app/src/App.tsx",
                   "name": "App.tsx",
                   "authors": {
-                    "Jonas Glerup Røssum": 18,
-                    "tjomson": 29,
-                    "emiljapelt": 24,
-                    "Thomas Hoffmann Kilbak": 18
+                    "Jonas Glerup Røssum": 426,
+                    "tjomson": 45,
+                    "emiljapelt": 335,
+                    "Thomas Hoffmann Kilbak": 179,
+                    "Kristoffer Højelse": 844,
+                    "joglr": 844,
+                    "Jonas Røssum": 6
                   },
                   "noLines": 18,
-                  "noCommits": 12,
+                  "noCommits": 44,
                   "isBinary": false,
                   "lastChangeEpoch": 1646061471
                 },
                 {
                   "type": "blob",
                   "hash": "fc495fba173d532d8951392939d747e80e84b869",
-                  "path": "git-visual/app/src/authorUnionUtil.test.ts",
+                  "path": "git-truck/app/src/authorUnionUtil.test.ts",
                   "name": "authorUnionUtil.test.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 82
@@ -401,7 +407,7 @@
                 {
                   "type": "blob",
                   "hash": "37ec2abaa86d15eaf38661b5d575e29d9d0113c0",
-                  "path": "git-visual/app/src/authorUnionUtil.ts",
+                  "path": "git-truck/app/src/authorUnionUtil.ts",
                   "name": "authorUnionUtil.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 48,
@@ -414,75 +420,75 @@
                 },
                 {
                   "type": "tree",
-                  "path": "git-visual/app/src/components",
+                  "path": "git-truck/app/src/components",
                   "name": "components",
-                  "hash": "6c6c46914181f7cb1db3a181698fae7ec43a585f",
+                  "hash": "0b4bacbaf739ceaea2b49c45feae3abeb6f74ca7",
                   "children": [
                     {
                       "type": "blob",
                       "hash": "ccc0561123e20dd3e42ca5b9f9e72d53452a5085",
-                      "path": "git-visual/app/src/components/Chart.css",
+                      "path": "git-truck/app/src/components/Chart.css",
                       "name": "Chart.css",
                       "authors": {
-                        "Jonas Glerup Røssum": 26,
+                        "Jonas Glerup Røssum": 59,
                         "tjomson": 23
                       },
                       "noLines": 26,
-                      "noCommits": 5,
+                      "noCommits": 8,
                       "isBinary": false,
                       "lastChangeEpoch": 1646662749
                     },
                     {
                       "type": "blob",
                       "hash": "c981bbdabe255a66d7e7c9c51c0be9d40cffbdf5",
-                      "path": "git-visual/app/src/components/Chart.tsx",
+                      "path": "git-truck/app/src/components/Chart.tsx",
                       "name": "Chart.tsx",
                       "authors": {
-                        "Jonas Glerup Røssum": 360,
-                        "Thomas Hoffmann Kilbak": 24,
-                        "emiljapelt": 349,
+                        "Jonas Glerup Røssum": 1272,
+                        "Thomas Hoffmann Kilbak": 1272,
+                        "emiljapelt": 995,
                         "Kristoffer Højelse": 22,
                         "tjomson": 47
                       },
                       "noLines": 360,
-                      "noCommits": 23,
+                      "noCommits": 41,
                       "isBinary": false,
                       "lastChangeEpoch": 1646993774
                     },
                     {
                       "type": "blob",
-                      "hash": "234da5c0b371507205c71a83030573ae13a14079",
-                      "path": "git-visual/app/src/components/Details.tsx",
+                      "hash": "e4007e64c6353969e1c200f3f5ac8743d359ddee",
+                      "path": "git-truck/app/src/components/Details.tsx",
                       "name": "Details.tsx",
                       "authors": {
+                        "Thomas Hoffmann Kilbak": 117,
                         "Kristoffer Højelse": 172,
-                        "Thomas Hoffmann Kilbak": 69,
                         "Jonas Glerup Røssum": 162,
                         "tjomson": 42
                       },
-                      "noLines": 143,
-                      "noCommits": 19,
+                      "noLines": 157,
+                      "noCommits": 20,
                       "isBinary": false,
-                      "lastChangeEpoch": 1647006635
+                      "lastChangeEpoch": 1647171849
                     },
                     {
                       "type": "blob",
                       "hash": "3b025683c905d70154d16d5c7cc69c723ebbb2ba",
-                      "path": "git-visual/app/src/components/EnumSelect.test.tsx",
+                      "path": "git-truck/app/src/components/EnumSelect.test.tsx",
                       "name": "EnumSelect.test.tsx",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 2,
-                        "Jonas Glerup Røssum": 21
+                        "Thomas Hoffmann Kilbak": 29,
+                        "Jonas Glerup Røssum": 29
                       },
                       "noLines": 21,
-                      "noCommits": 2,
+                      "noCommits": 4,
                       "isBinary": false,
                       "lastChangeEpoch": 1646827048
                     },
                     {
                       "type": "blob",
                       "hash": "72444d8297feef63dfb27d20d37caf1c5db6ba47",
-                      "path": "git-visual/app/src/components/EnumSelect.tsx",
+                      "path": "git-truck/app/src/components/EnumSelect.tsx",
                       "name": "EnumSelect.tsx",
                       "authors": {
                         "Jonas Glerup Røssum": 51
@@ -495,7 +501,7 @@
                     {
                       "type": "blob",
                       "hash": "59110ff54905cdfa2380bafcb34ef5b86a57dc0f",
-                      "path": "git-visual/app/src/components/GlobalInfo.tsx",
+                      "path": "git-truck/app/src/components/GlobalInfo.tsx",
                       "name": "GlobalInfo.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 2,
@@ -509,7 +515,7 @@
                     {
                       "type": "blob",
                       "hash": "7998c07ed70f9e8717e7338d5e1f182cb10264e8",
-                      "path": "git-visual/app/src/components/Legend.tsx",
+                      "path": "git-truck/app/src/components/Legend.tsx",
                       "name": "Legend.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 14,
@@ -524,7 +530,7 @@
                     {
                       "type": "blob",
                       "hash": "8889ec08d01eceed7809e89f329f16a748c66a47",
-                      "path": "git-visual/app/src/components/LegendFragment.tsx",
+                      "path": "git-truck/app/src/components/LegendFragment.tsx",
                       "name": "LegendFragment.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 12,
@@ -539,7 +545,7 @@
                     {
                       "type": "blob",
                       "hash": "a8de41a2aa9307bd51151188f26c0121ee79d3f6",
-                      "path": "git-visual/app/src/components/LegendOther.tsx",
+                      "path": "git-truck/app/src/components/LegendOther.tsx",
                       "name": "LegendOther.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 5,
@@ -554,7 +560,7 @@
                     {
                       "type": "blob",
                       "hash": "bc0018633bc919a4c6a3dcd27a7ac34ad1e256ab",
-                      "path": "git-visual/app/src/components/LegendToggle.tsx",
+                      "path": "git-truck/app/src/components/LegendToggle.tsx",
                       "name": "LegendToggle.tsx",
                       "authors": {
                         "Jonas Glerup Røssum": 16,
@@ -568,7 +574,7 @@
                     {
                       "type": "blob",
                       "hash": "b174f9ad2cba483626d70dc5079c633ec6a99b7b",
-                      "path": "git-visual/app/src/components/Main.tsx",
+                      "path": "git-truck/app/src/components/Main.tsx",
                       "name": "Main.tsx",
                       "authors": {
                         "Jonas Glerup Røssum": 19
@@ -581,7 +587,7 @@
                     {
                       "type": "blob",
                       "hash": "0b76edb7bd9c0267177d83ff7b7aab3c7910ee4e",
-                      "path": "git-visual/app/src/components/Options.tsx",
+                      "path": "git-truck/app/src/components/Options.tsx",
                       "name": "Options.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 4,
@@ -595,7 +601,7 @@
                     {
                       "type": "blob",
                       "hash": "fef4769c62e3fdf66386155b4372de4ede4694ed",
-                      "path": "git-visual/app/src/components/Providers.tsx",
+                      "path": "git-truck/app/src/components/Providers.tsx",
                       "name": "Providers.tsx",
                       "authors": {
                         "Jonas Glerup Røssum": 39,
@@ -610,7 +616,7 @@
                     {
                       "type": "blob",
                       "hash": "c31b8c0578d2d1387e8fbb21f48f3ea813adb4a1",
-                      "path": "git-visual/app/src/components/SearchBar.tsx",
+                      "path": "git-truck/app/src/components/SearchBar.tsx",
                       "name": "SearchBar.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 2,
@@ -625,7 +631,7 @@
                     {
                       "type": "blob",
                       "hash": "c1c8312a573164320ab0f64571f27d0c0177901c",
-                      "path": "git-visual/app/src/components/SidePanel.tsx",
+                      "path": "git-truck/app/src/components/SidePanel.tsx",
                       "name": "SidePanel.tsx",
                       "authors": {
                         "Jonas Glerup Røssum": 39,
@@ -641,21 +647,22 @@
                     {
                       "type": "blob",
                       "hash": "13a2c1d240fee8c0c7e1d3a19ced160a116ea407",
-                      "path": "git-visual/app/src/components/Spacer.tsx",
+                      "path": "git-truck/app/src/components/Spacer.tsx",
                       "name": "Spacer.tsx",
                       "authors": {
-                        "Jonas Glerup Røssum": 62,
-                        "Thomas Hoffmann Kilbak": 62
+                        "Jonas Glerup Røssum": 5,
+                        "Thomas Hoffmann Kilbak": 69,
+                        "tjomson": 5
                       },
                       "noLines": 62,
-                      "noCommits": 4,
+                      "noCommits": 5,
                       "isBinary": false,
                       "lastChangeEpoch": 1645560239
                     },
                     {
                       "type": "blob",
                       "hash": "6c22f9ccb5d5982ace45fa673df178052b1a396e",
-                      "path": "git-visual/app/src/components/Tooltip.tsx",
+                      "path": "git-truck/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
                       "authors": {
                         "Thomas Hoffmann Kilbak": 81,
@@ -669,7 +676,7 @@
                     {
                       "type": "blob",
                       "hash": "e0566afad748af5f1ab3db88b92c2ecd82e1b83e",
-                      "path": "git-visual/app/src/components/util.tsx",
+                      "path": "git-truck/app/src/components/util.tsx",
                       "name": "util.tsx",
                       "authors": {
                         "Kristoffer Højelse": 5,
@@ -687,7 +694,7 @@
                 {
                   "type": "blob",
                   "hash": "00a89d5564842b158ca32f3add6ff8b70a0a3244",
-                  "path": "git-visual/app/src/const.ts",
+                  "path": "git-truck/app/src/const.ts",
                   "name": "const.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 14,
@@ -702,59 +709,64 @@
                 },
                 {
                   "type": "tree",
-                  "path": "git-visual/app/src/contexts",
+                  "path": "git-truck/app/src/contexts",
                   "name": "contexts",
                   "hash": "ed06f131898d5390a286650e5c3650edbef2064f",
                   "children": [
                     {
                       "type": "blob",
                       "hash": "2447dabdb1bc363813dd200d07790f1a9e9bc6b2",
-                      "path": "git-visual/app/src/contexts/DataContext.ts",
+                      "path": "git-truck/app/src/contexts/DataContext.ts",
                       "name": "DataContext.ts",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 12
+                        "Jonas Glerup Røssum": 12
                       },
                       "noLines": 12,
-                      "noCommits": 1,
+                      "noCommits": 2,
                       "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
                       "type": "blob",
                       "hash": "d6af1dc8b68aba80ec38a203e564bd4eb7277b43",
-                      "path": "git-visual/app/src/contexts/MetricContext.ts",
+                      "path": "git-truck/app/src/contexts/MetricContext.ts",
                       "name": "MetricContext.ts",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 14
+                        "Thomas Hoffmann Kilbak": 2,
+                        "Jonas Glerup Røssum": 14
                       },
                       "noLines": 14,
-                      "noCommits": 1,
+                      "noCommits": 2,
                       "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
                       "type": "blob",
                       "hash": "ec35241437bd44377ef83a2274779abb74b8e240",
-                      "path": "git-visual/app/src/contexts/OptionsContext.ts",
+                      "path": "git-truck/app/src/contexts/OptionsContext.ts",
                       "name": "OptionsContext.ts",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 46
+                        "Thomas Hoffmann Kilbak": 4,
+                        "Jonas Glerup Røssum": 102,
+                        "tjomson": 16,
+                        "emiljapelt": 13
                       },
                       "noLines": 46,
-                      "noCommits": 1,
+                      "noCommits": 10,
                       "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     },
                     {
                       "type": "blob",
                       "hash": "533b0ada90e7abf558cb5c55707cf52331afe319",
-                      "path": "git-visual/app/src/contexts/SearchContext.ts",
+                      "path": "git-truck/app/src/contexts/SearchContext.ts",
                       "name": "SearchContext.ts",
                       "authors": {
-                        "Thomas Hoffmann Kilbak": 16
+                        "Jonas Glerup Røssum": 16,
+                        "tjomson": 16
                       },
                       "noLines": 16,
-                      "noCommits": 1,
+                      "noCommits": 2,
                       "isBinary": false,
                       "lastChangeEpoch": 1646817418
                     }
@@ -763,7 +775,7 @@
                 {
                   "type": "blob",
                   "hash": "d4ef7a3603dcf9e7e9c68190da809195f0a86cfd",
-                  "path": "git-visual/app/src/extension-color.ts",
+                  "path": "git-truck/app/src/extension-color.ts",
                   "name": "extension-color.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 34
@@ -776,7 +788,7 @@
                 {
                   "type": "blob",
                   "hash": "d0c286f1898b12fc39831ac23ebab26a6e164019",
-                  "path": "git-visual/app/src/hooks.ts",
+                  "path": "git-truck/app/src/hooks.ts",
                   "name": "hooks.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 13
@@ -789,7 +801,7 @@
                 {
                   "type": "blob",
                   "hash": "95a11f4e644ed7ba375c15dd82ed24a4be2f761f",
-                  "path": "git-visual/app/src/index.css",
+                  "path": "git-truck/app/src/index.css",
                   "name": "index.css",
                   "authors": {
                     "Kristoffer Højelse": 2,
@@ -805,7 +817,7 @@
                 {
                   "type": "blob",
                   "hash": "be200bb5c2b6fb36fe9ec1c529dbdc9bfb9251c8",
-                  "path": "git-visual/app/src/index.tsx",
+                  "path": "git-truck/app/src/index.tsx",
                   "name": "index.tsx",
                   "authors": {
                     "Jonas Glerup Røssum": 38,
@@ -819,7 +831,7 @@
                 {
                   "type": "blob",
                   "hash": "c8df9086ccfb2346d9aa37de33cc349fbd3ecef7",
-                  "path": "git-visual/app/src/lang-map.d.ts",
+                  "path": "git-truck/app/src/lang-map.d.ts",
                   "name": "lang-map.d.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 3
@@ -832,7 +844,7 @@
                 {
                   "type": "blob",
                   "hash": "59a2ee56f4f387f66c6e1ba910992081b953851a",
-                  "path": "git-visual/app/src/metrics.ts",
+                  "path": "git-truck/app/src/metrics.ts",
                   "name": "metrics.ts",
                   "authors": {
                     "Kristoffer Højelse": 38,
@@ -848,7 +860,7 @@
                 {
                   "type": "blob",
                   "hash": "6431bc5fc6b2c932dfe5d0418fc667b86c18b9fc",
-                  "path": "git-visual/app/src/react-app-env.d.ts",
+                  "path": "git-truck/app/src/react-app-env.d.ts",
                   "name": "react-app-env.d.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 1,
@@ -862,7 +874,7 @@
                 {
                   "type": "blob",
                   "hash": "8c8400b19f42e07144538101126d65292d0bd9e5",
-                  "path": "git-visual/app/src/reportWebVitals.ts",
+                  "path": "git-truck/app/src/reportWebVitals.ts",
                   "name": "reportWebVitals.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 15,
@@ -876,7 +888,7 @@
                 {
                   "type": "blob",
                   "hash": "6a0fd1230b44bcbdf5dd9506285418d3659a00b2",
-                  "path": "git-visual/app/src/setupTests.ts",
+                  "path": "git-truck/app/src/setupTests.ts",
                   "name": "setupTests.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 5,
@@ -890,21 +902,21 @@
                 {
                   "type": "blob",
                   "hash": "8c83f551725e7575a0bbf44a79416fcc46c106f8",
-                  "path": "git-visual/app/src/util.ts",
+                  "path": "git-truck/app/src/util.ts",
                   "name": "util.ts",
                   "authors": {
-                    "Thomas Hoffmann Kilbak": 26,
-                    "Jonas Glerup Røssum": 26
+                    "Thomas Hoffmann Kilbak": 55,
+                    "Jonas Glerup Røssum": 41
                   },
                   "noLines": 26,
-                  "noCommits": 9,
+                  "noCommits": 10,
                   "isBinary": false,
                   "lastChangeEpoch": 1646824293
                 },
                 {
                   "type": "blob",
                   "hash": "10f58d328509ff9c6ea07b19d134003db9ef154f",
-                  "path": "git-visual/app/src/vars.css",
+                  "path": "git-truck/app/src/vars.css",
                   "name": "vars.css",
                   "authors": {
                     "Kristoffer Højelse": 22,
@@ -921,7 +933,7 @@
             {
               "type": "blob",
               "hash": "a46e159ced9190803abddbfbc431943dda76ce30",
-              "path": "git-visual/app/tsconfig.json",
+              "path": "git-truck/app/tsconfig.json",
               "name": "tsconfig.json",
               "authors": {
                 "Jonas Glerup Røssum": 34,
@@ -937,7 +949,7 @@
         {
           "type": "blob",
           "hash": "43cab4f83c7746415de4cf939fa32b0929040821",
-          "path": "git-visual/clean.sh",
+          "path": "git-truck/clean.sh",
           "name": "clean.sh",
           "authors": {
             "Jonas Glerup Røssum": 8
@@ -950,7 +962,7 @@
         {
           "type": "blob",
           "hash": "f09ddaaca270acbc1112a46ac8bb9c4c8decb0b5",
-          "path": "git-visual/dev.sh",
+          "path": "git-truck/dev.sh",
           "name": "dev.sh",
           "authors": {
             "Jonas Glerup Røssum": 24
@@ -963,7 +975,7 @@
         {
           "type": "blob",
           "hash": "f7bb6c4979c56794ab40887b5e8b1e24d92b15b6",
-          "path": "git-visual/parse.sh",
+          "path": "git-truck/parse.sh",
           "name": "parse.sh",
           "authors": {
             "Jonas Glerup Røssum": 34
@@ -975,14 +987,14 @@
         },
         {
           "type": "tree",
-          "path": "git-visual/parser",
+          "path": "git-truck/parser",
           "name": "parser",
-          "hash": "d9ccddde3de619647f9ad51f70a426b9c1676b71",
+          "hash": "4de69db2424f924dc430b3f5ce9b1b778f4d030b",
           "children": [
             {
               "type": "blob",
               "hash": "d48c58554961f167f8e8b116c853cb457aeb8dff",
-              "path": "git-visual/parser/.eslintignore",
+              "path": "git-truck/parser/.eslintignore",
               "name": ".eslintignore",
               "authors": {
                 "Thomas Hoffmann Kilbak": 3,
@@ -996,7 +1008,7 @@
             {
               "type": "blob",
               "hash": "5be230016c1be0935a1a08fce3ef98a5205219ad",
-              "path": "git-visual/parser/.eslintrc.json",
+              "path": "git-truck/parser/.eslintrc.json",
               "name": ".eslintrc.json",
               "authors": {
                 "Thomas Hoffmann Kilbak": 28,
@@ -1010,22 +1022,22 @@
             {
               "type": "blob",
               "hash": "1a7284c4cc30147a0c21466cf52651458b821e99",
-              "path": "git-visual/parser/.gitignore",
+              "path": "git-truck/parser/.gitignore",
               "name": ".gitignore",
               "authors": {
-                "Thomas Hoffmann Kilbak": 1,
-                "Jonas Glerup Røssum": 1,
-                "Jonas Røssum": 1
+                "Thomas Hoffmann Kilbak": 4,
+                "Jonas Glerup Røssum": 3,
+                "Jonas Røssum": 3
               },
               "noLines": 5,
-              "noCommits": 2,
+              "noCommits": 5,
               "isBinary": false,
               "lastChangeEpoch": 1645455849
             },
             {
               "type": "blob",
               "hash": "cce9d3c0801773cf33a36f6e57afe78a06eebb89",
-              "path": "git-visual/parser/.prettierrc",
+              "path": "git-truck/parser/.prettierrc",
               "name": ".prettierrc",
               "authors": {
                 "Thomas Hoffmann Kilbak": 3,
@@ -1039,7 +1051,7 @@
             {
               "type": "blob",
               "hash": "170be3bc5c87c4dd54ea148e1ffd7e5588e30846",
-              "path": "git-visual/parser/README.md",
+              "path": "git-truck/parser/README.md",
               "name": "README.md",
               "authors": {
                 "Jonas Glerup Røssum": 69,
@@ -1055,7 +1067,7 @@
             {
               "type": "blob",
               "hash": "e7b98b3edae948a697b9624dffae366ebf24047f",
-              "path": "git-visual/parser/jest.config.js",
+              "path": "git-truck/parser/jest.config.js",
               "name": "jest.config.js",
               "authors": {
                 "Thomas Hoffmann Kilbak": 7,
@@ -1069,7 +1081,7 @@
             {
               "type": "blob",
               "hash": "7172caa42f7bfc9b4ec2587ad5b67ecaba103579",
-              "path": "git-visual/parser/package.json",
+              "path": "git-truck/parser/package.json",
               "name": "package.json",
               "authors": {
                 "Jonas Glerup Røssum": 48,
@@ -1085,14 +1097,14 @@
             },
             {
               "type": "tree",
-              "path": "git-visual/parser/src",
+              "path": "git-truck/parser/src",
               "name": "src",
-              "hash": "026b45c3772444f4489af6facdf96634d6f17222",
+              "hash": "7880061ef25479c01905a5afaaa46147484c29b1",
               "children": [
                 {
                   "type": "blob",
                   "hash": "9f12958773d28b9a377826510fad13e4422ce925",
-                  "path": "git-visual/parser/src/TruckIgnore.ts",
+                  "path": "git-truck/parser/src/TruckIgnore.ts",
                   "name": "TruckIgnore.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 58
@@ -1105,7 +1117,7 @@
                 {
                   "type": "blob",
                   "hash": "70534944f65d01221e8716bcc880974981cee7ae",
-                  "path": "git-visual/parser/src/constants.ts",
+                  "path": "git-truck/parser/src/constants.ts",
                   "name": "constants.ts",
                   "authors": {
                     "Kristoffer Højelse": 2,
@@ -1118,26 +1130,27 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "654b4bb35e20c0f4e7aa390b318c2d30d345a054",
-                  "path": "git-visual/parser/src/hydrate.ts",
+                  "hash": "89ce42df5619e3e16f4f26e8049c4d1ffff6d26e",
+                  "path": "git-truck/parser/src/hydrate.ts",
                   "name": "hydrate.ts",
                   "authors": {
-                    "Jonas Glerup Røssum": 81,
-                    "Thomas Hoffmann Kilbak": 44,
-                    "Kristoffer Højelse": 195,
+                    "Thomas Hoffmann Kilbak": 58,
+                    "Jonas Glerup Røssum": 199,
+                    "Kristoffer Højelse": 52,
                     "tjomson": 9,
-                    "emiljapelt": 195,
-                    "joglr": 195
+                    "emiljapelt": 39,
+                    "joglr": 39,
+                    "Jonas Røssum": 52
                   },
-                  "noLines": 195,
-                  "noCommits": 13,
+                  "noLines": 199,
+                  "noCommits": 28,
                   "isBinary": false,
-                  "lastChangeEpoch": 1647004641
+                  "lastChangeEpoch": 1647172400
                 },
                 {
                   "type": "blob",
                   "hash": "e72211488bec72c7b5ec1f23bff2f85546b59f5f",
-                  "path": "git-visual/parser/src/index.ts",
+                  "path": "git-truck/parser/src/index.ts",
                   "name": "index.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 115,
@@ -1156,7 +1169,7 @@
                 {
                   "type": "blob",
                   "hash": "fd5979643f173b0ed992a8e3cfc818f66cc565c4",
-                  "path": "git-visual/parser/src/log.ts",
+                  "path": "git-truck/parser/src/log.ts",
                   "name": "log.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 178
@@ -1169,26 +1182,26 @@
                 {
                   "type": "blob",
                   "hash": "27c95f2cdd90b04c2df24d01bb64a00a20f9dfd5",
-                  "path": "git-visual/parser/src/model.ts",
+                  "path": "git-truck/parser/src/model.ts",
                   "name": "model.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 28,
                     "Jonas Glerup Røssum": 26,
-                    "Kristoffer Højelse": 14,
+                    "Kristoffer Højelse": 85,
                     "tjomson": 36,
                     "emiljapelt": 47,
-                    "joglr": 77,
+                    "joglr": 85,
                     "Jonas Røssum": 20
                   },
                   "noLines": 77,
-                  "noCommits": 26,
+                  "noCommits": 29,
                   "isBinary": false,
                   "lastChangeEpoch": 1646997350
                 },
                 {
                   "type": "blob",
                   "hash": "63dc62c641a7baf9a662bd1147f34c288fa5e10f",
-                  "path": "git-visual/parser/src/parse.test.ts",
+                  "path": "git-truck/parser/src/parse.test.ts",
                   "name": "parse.test.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 32
@@ -1201,7 +1214,7 @@
                 {
                   "type": "blob",
                   "hash": "3b6d7b5b6465aec2c1e8dbeaac06f2367d0079f6",
-                  "path": "git-visual/parser/src/parse.ts",
+                  "path": "git-truck/parser/src/parse.ts",
                   "name": "parse.ts",
                   "authors": {
                     "Jonas Glerup Røssum": 142,
@@ -1220,7 +1233,7 @@
                 {
                   "type": "blob",
                   "hash": "7edc97842a32f62dd9a0507e3b63878ecba43866",
-                  "path": "git-visual/parser/src/queue.ts",
+                  "path": "git-truck/parser/src/queue.ts",
                   "name": "queue.ts",
                   "authors": {
                     "Kristoffer Højelse": 86
@@ -1233,7 +1246,7 @@
                 {
                   "type": "blob",
                   "hash": "9d7310c382b9f2b5d70c2b569db603318b189a22",
-                  "path": "git-visual/parser/src/util.test.ts",
+                  "path": "git-truck/parser/src/util.test.ts",
                   "name": "util.test.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 8,
@@ -1246,8 +1259,8 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "c191a75dde98beed2722f5ad0c6c57770d35d687",
-                  "path": "git-visual/parser/src/util.ts",
+                  "hash": "38c0914998ee249fbdb968224fe872051c2ef4b6",
+                  "path": "git-truck/parser/src/util.ts",
                   "name": "util.ts",
                   "authors": {
                     "Thomas Hoffmann Kilbak": 20,
@@ -1258,17 +1271,17 @@
                     "emiljapelt": 9,
                     "Jonas Røssum": 107
                   },
-                  "noLines": 170,
-                  "noCommits": 31,
+                  "noLines": 215,
+                  "noCommits": 33,
                   "isBinary": false,
-                  "lastChangeEpoch": 1646933320
+                  "lastChangeEpoch": 1647172400
                 }
               ]
             },
             {
               "type": "blob",
               "hash": "7b4fc6c0186f6e43d3d82d0b73ea091d1c5918ad",
-              "path": "git-visual/parser/tsconfig.json",
+              "path": "git-truck/parser/tsconfig.json",
               "name": "tsconfig.json",
               "authors": {
                 "Thomas Hoffmann Kilbak": 101,
@@ -1285,7 +1298,7 @@
         {
           "type": "blob",
           "hash": "38bef5ed49d7774c58dd4c6a4784d42d433fda85",
-          "path": "git-visual/project-statement.md",
+          "path": "git-truck/project-statement.md",
           "name": "project-statement.md",
           "authors": {
             "Jonas Glerup Røssum": 43
@@ -1298,7 +1311,7 @@
         {
           "type": "blob",
           "hash": "4508cca7c2352a3bd489fd024148c58eb12d1eb8",
-          "path": "git-visual/start.sh",
+          "path": "git-truck/start.sh",
           "name": "start.sh",
           "authors": {
             "Jonas Glerup Røssum": 43
@@ -1311,7 +1324,7 @@
         {
           "type": "blob",
           "hash": "a294c75136ea1730a78356e5c254b47673be8006",
-          "path": "git-visual/truckconfig.json",
+          "path": "git-truck/truckconfig.json",
           "name": "truckconfig.json",
           "authors": {
             "Thomas Hoffmann Kilbak": 8
@@ -1324,9 +1337,9 @@
       ]
     },
     "minNoCommits": 1,
-    "maxNoCommits": 31,
+    "maxNoCommits": 44,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647006635
+    "newestLatestChangeEpoch": 1647172400
   },
   "authorUnions": [
     [
