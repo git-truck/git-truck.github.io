@@ -3,29 +3,29 @@
   "branch": "main",
   "commit": {
     "type": "commit",
-    "hash": "ff3d2add470302e7eb1117e0fc9ceb97075c450a",
-    "parent": "d52f02569095a282e4bf7c3c02d187747ec6ca0f",
+    "hash": "2fb1735d37780902ddec6977e447c7f46c3aa069",
+    "parent": "ff3d2add470302e7eb1117e0fc9ceb97075c450a",
     "parent2": null,
     "author": {
-      "name": "Kristoffer Højelse",
-      "email": "34659757+hojelse@users.noreply.github.com",
-      "timestamp": 1647245541,
+      "name": "emiljapelt",
+      "email": "55390848+emiljapelt@users.noreply.github.com",
+      "timestamp": 1647256663,
       "timezone": "+0100"
     },
     "committer": {
-      "name": "Jonas Glerup Røssum",
-      "email": "1959615+joglr@users.noreply.github.com",
-      "timestamp": 1647256164,
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "timestamp": 1647256663,
       "timezone": "+0100"
     },
-    "message": "Set exec privileges on .sh",
-    "description": "",
+    "message": "211/move tooltip (#325)",
+    "description": "* Render tooltip in different spot, deps on position\r\n* Make tooltip pos dependant on its size\r\n* remove unused imports\r\n* remove unused import in Chart",
     "coauthors": [],
     "tree": {
       "type": "tree",
       "path": "git-truck",
       "name": "git-truck",
-      "hash": "8d2f4f87869ba2baa891f4ef83b51503e629c716",
+      "hash": "d6d9cce485c9a904054658a4b3eb2fbdc060d4ae",
       "children": [
         {
           "type": "tree",
@@ -219,7 +219,7 @@
           "type": "tree",
           "path": "git-truck/app",
           "name": "app",
-          "hash": "be798a20343d7c9c14322e9ae4fa4c43ad80bb42",
+          "hash": "c279e3096d2640ef77cf452b9f86b1f0e5bccd71",
           "children": [
             {
               "type": "blob",
@@ -352,7 +352,7 @@
               "type": "tree",
               "path": "git-truck/app/src",
               "name": "src",
-              "hash": "617cb8568275976f64dd54ff72dda119c8995508",
+              "hash": "ebb5bf5af0cfb269761fc086714c95712058c2e7",
               "children": [
                 {
                   "type": "blob",
@@ -422,7 +422,7 @@
                   "type": "tree",
                   "path": "git-truck/app/src/components",
                   "name": "components",
-                  "hash": "53487ebfeba3e5cb4605d9649db94b97ddf00070",
+                  "hash": "61fe55fa9170ce5480abc003880d447d07cef470",
                   "children": [
                     {
                       "type": "blob",
@@ -661,17 +661,18 @@
                     },
                     {
                       "type": "blob",
-                      "hash": "6231ea1f4c914eb8c58a05719cd013e40d7ca851",
+                      "hash": "a0fc30ec145cef5843e347e9a4f0975bd365399a",
                       "path": "git-truck/app/src/components/Tooltip.tsx",
                       "name": "Tooltip.tsx",
                       "authors": {
+                        "emiljapelt": 38,
                         "Thomas Hoffmann Kilbak": 93,
                         "Jonas Glerup Røssum": 133
                       },
-                      "noLines": 109,
-                      "noCommits": 16,
+                      "noLines": 131,
+                      "noCommits": 17,
                       "isBinary": false,
-                      "lastChangeEpoch": 1647250896
+                      "lastChangeEpoch": 1647256663
                     },
                     {
                       "type": "blob",
@@ -787,16 +788,17 @@
                 },
                 {
                   "type": "blob",
-                  "hash": "d0c286f1898b12fc39831ac23ebab26a6e164019",
+                  "hash": "1b93fe473725ca34af48693dc6b589fcc88c13d4",
                   "path": "git-truck/app/src/hooks.ts",
                   "name": "hooks.ts",
                   "authors": {
+                    "emiljapelt": 4,
                     "Jonas Glerup Røssum": 13
                   },
-                  "noLines": 13,
-                  "noCommits": 1,
+                  "noLines": 17,
+                  "noCommits": 2,
                   "isBinary": false,
-                  "lastChangeEpoch": 1645798777
+                  "lastChangeEpoch": 1647256663
                 },
                 {
                   "type": "blob",
@@ -1339,7 +1341,7 @@
     "minNoCommits": 1,
     "maxNoCommits": 44,
     "oldestLatestChangeEpoch": 1643810439,
-    "newestLatestChangeEpoch": 1647251573
+    "newestLatestChangeEpoch": 1647256663
   },
   "authorUnions": [
     [
